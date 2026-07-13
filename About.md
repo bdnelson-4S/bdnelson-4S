@@ -18,3 +18,9 @@ Include:
 - Professional credentials
 - Relevant life experiences
 
+---
+
+
+### My Approach
+
+I believe counseling is not simply about reducing symptoms. It is about helping people understand their experiences, reconnect with their values, and build a meaningful life.
