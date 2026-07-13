@@ -12,6 +12,9 @@ Before making the decision to start a career in counseling I served in the Unite
 [title](https://www.psychologytoday.com/us/therapists/ben-nelson-smyrna-tn/1408270)
 
 
+![headshot](https://bdnelson-4S/main/bennelsonheadshot2.jpg)
+
+
 
 
 # Ben Nelson Counseling
@@ -25,9 +28,6 @@ Helping people find meaning, strength, and direction through life's challenges.
 **Subheadline:**
 Counseling for individuals seeking growth, healing, and a deeper connection with themselves and their values.
 
-**Call to Action:**
-- Schedule a Consultation
-- Learn More About My Approach
 
 ---
 
