@@ -3,4 +3,4 @@ layout: default
 title: Main Page
 ---
 
-![headshot](/bennelsonheadshot2.jpg)
+![headshot](/Assets/Ben%20Nelson%20Headshot%202.jpg)
