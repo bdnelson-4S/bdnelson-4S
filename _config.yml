@@ -1,3 +1,11 @@
 title: Ben Nelson Counseling
+
+header_pages:
+  - index.md
+  - About.md
+  - Articles.md
+  - Speaking.md
+  - Resources.md
+
 description: Therapist and counselor in Smyrna, TN
 theme: minima
