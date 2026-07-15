@@ -1,3 +1,11 @@
+<div align="center" style="position: relative;">
+  <img src="YOUR-IMAGE-URL" alt="Banner Image" width="100%">
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center;">
+    <h1>Your Title Here</h1>
+    <p>Your subtitle or description goes here.</p>
+  </div>
+</div>
+
 # About me
 
 ---
