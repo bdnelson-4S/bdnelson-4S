@@ -13,4 +13,4 @@ My expertise is in helping people develop skills to become unstuck and unburdene
 
 Life doesn’t come with a user's manual, and many of us navigate it without the tools we need to build a healthy relationship with ourself and others. You are the expert on yourself and your life. With that expertise we can work together to find and develop the skills to build a foundation for life. Call today to set up your free consultation!
 
-<img src="/Assets/Headshot.jpg" alt="headshot" width="250" style="float: right; margin: 0 0 15px 15px;">
+
