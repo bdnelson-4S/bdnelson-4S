@@ -1,0 +1,11 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "About Me"
+    url: /about/
+  - title: "Articles"
+    url: /articles/
+  - title: "Resources"
+    url: /resources/
+  - title: "Speaking"
+    url: /speaking/
