@@ -3,8 +3,8 @@
 @import "minimal-mistakes/skins/default";
 @import "minimal-mistakes";
 
-.masthead {
-  position: fixed;
+body .masthead {
+  position: fixed !important;
   top: 0;
   width: 100%;
   z-index: 100;
