@@ -1,7 +1,10 @@
 ---
-layout: splash
+layout: single
 title: About
 permalink: /about/
+header:
+  overlay_image: /Assets/4SWallpaper.jpg
+  overlay_filter: 0.4
 ---
 
 # About Me
