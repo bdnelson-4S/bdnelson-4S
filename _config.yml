@@ -14,4 +14,14 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
+
+  defaults:
+  - scope:
+      path: ""
+    values:
+      tagline: "Counselor • Writer • Speaker"
+      header:
+        overlay_image: /Assets/4SWallpaper.jpg
+        overlay_filter: 0.4
+
   
