@@ -1,10 +1,5 @@
 title: Ben Nelson
-header_pages:
-  - index.md
-  - About.md
-  - Articles.md
-  - Speaking.md
-  - Resources.md
+
 description: Therapist and counselor in Smyrna, TN
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
