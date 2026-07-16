@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 title: Articles
 permalink: /articles/
 ---
