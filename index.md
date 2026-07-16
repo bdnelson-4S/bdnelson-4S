@@ -9,7 +9,7 @@ title: "Ben Nelson"
 layout: splash
 title: "Ben Nelson"
 header:
-  overlay_image: /Assets/4SWallpaper.jpg
+  overlay_image: bdnelson-4S/Assets/4SWallpaper.jpg
   overlay_filter: 0.4
   caption: ""
 ---
