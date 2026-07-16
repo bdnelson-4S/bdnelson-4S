@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Home
+layout: splash
+title: "Ben Nelson"
 ---
 
 <div style="position: relative; text-align: center; color: white;">
