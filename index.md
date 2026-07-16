@@ -3,6 +3,14 @@ layout: default
 title: Home
 ---
 
+<div style="position: relative; text-align: center; color: white;">
+  <img src="/Assets/hero-background.jpg" alt="hero background" style="width: 100%; height: 400px; object-fit: cover;">
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">
+    <h1 style="font-size: 3em; margin: 0; text-shadow: 2px 2px 6px rgba(0,0,0,0.6);">Ben Nelson</h1>
+    <p style="font-size: 1.3em; letter-spacing: 2px; text-shadow: 1px 1px 4px rgba(0,0,0,0.6);">Counselor • Writer • Speaker</p>
+  </div>
+</div>
+
 <div style="text-align: center;">
   <img src="/Assets/Headshot.jpg" alt="headshot" width="300">
 </div>
