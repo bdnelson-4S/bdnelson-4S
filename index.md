@@ -1,11 +1,11 @@
 ---
 layout: splash
 title: "Ben Nelson"
-excerpt: "Counselor • Writer • Speaker"
 header:
   overlay_image: /Assets/4SWallpaper.jpg
   overlay_filter: 0.4
   caption: ""
+  tagline: "Counselor • Writer • Speaker"
 ---
 
 ---
