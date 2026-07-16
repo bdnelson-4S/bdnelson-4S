@@ -1,13 +1,6 @@
 ---
 layout: splash
 title: "Ben Nelson"
----
-
-
-
----
-layout: splash
-title: "Ben Nelson"
 header:
   overlay_image: bdnelson-4S/Assets/4SWallpaper.jpg
   overlay_filter: 0.4
