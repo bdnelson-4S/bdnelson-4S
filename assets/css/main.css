@@ -25,3 +25,7 @@ body {
 .page__content p {
   text-align: justify;
 }
+
+.spaced-image {
+  margin-bottom: 40px;
+}
