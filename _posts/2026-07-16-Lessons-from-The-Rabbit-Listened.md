@@ -8,8 +8,9 @@ header:
 
 [← Back to Articles](/articles/){: .btn .btn--primary}
 
-![The Rabbit Listened](/Assets/therabbitlistened.jpg)
-
+<div style="text-align: center;">
+  <img src="/Assets/therabbitlistened.jpg" alt="headshot" width="300" class="spaced-image bordered-image">
+</div>
 
 Sometimes the biggest lessons to learn are found in children's stories. The simplicity of the story and its message is its own kind of power. One great example of these powerful stories is Cori Doerrfeld's The Rabbit Listened. In just a few minutes of reading you are left with a powerful message: presence is often a more precious and impactful gift than we understand. 
 
