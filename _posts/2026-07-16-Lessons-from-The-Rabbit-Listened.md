@@ -2,7 +2,8 @@
 title: "Lessons from The Rabbit Listened"
 excerpt: "A short 1-2 sentence teaser that shows on the blog list page."
 header:
-  teaser: /Assets/blog/therabbitlistened.jpg
+  teaser: /Assets/therabbitlistened.jpg
+  image: /Assets/therabbitlistened.jpg
 ---
 
 [← Back to Articles](/articles/){: .btn .btn--primary}
