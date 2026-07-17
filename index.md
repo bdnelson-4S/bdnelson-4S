@@ -15,7 +15,7 @@ header:
   <img src="/Assets/Headshot.jpg" alt="headshot" width="300">
 </div>
 
-
+<img src="/Assets/ben-nelson-headshot.jpg" alt="headshot" width="250" class="spaced-image">
 
 
 
