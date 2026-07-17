@@ -2,7 +2,7 @@
 title: "Lessons from The Rabbit Listened"
 excerpt: "A short 1-2 sentence teaser that shows on the blog list page."
 header:
-  teaser: /Assets/blog/article-thumbnail.jpg
+  teaser: /Assets/blog/therabbitlistened.jpg
 ---
 
 Sometimes the biggest lessons to learn are found in children's stories. The simplicity of the story and its message is its own kind of power. One great example of these powerful stories is Cori Doerrfeld's The Rabbit Listened. In just a few minutes of reading you are left with a powerful message: presence is often a more precious and impactful gift than we understand. 
