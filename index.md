@@ -12,7 +12,7 @@ header:
 ---
 
 <div style="text-align: center;">
-  <img src="/Assets/Headshot.jpg" alt="headshot" width="250" class="spaced-image">
+  <img src="/Assets/Headshot.jpg" alt="headshot" width="300" class="spaced-image bordered-image">
 </div>
 
 
