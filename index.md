@@ -12,18 +12,8 @@ header:
 ---
 
 <div style="text-align: center;">
-  <img src="/Assets/Headshot.jpg" alt="headshot" width="300">
+  <img src="/Assets/Headshot.jpg" alt="headshot" width="250" class="spaced-image">
 </div>
-
-<img src="/Assets/Headshot.jpg" alt="headshot" width="250" class="spaced-image">
-
-
-
-
-
-
-
-
 
 
 Life tends to throw us curveballs. Without the tools to manage those twists, life can start to feel more like a state of chaos than a place where we can grow and develop. These chaotic times can bring up thoughts like “I’m not good enough” or “I’ll never get through this.” When we get so attached to a thought, belief, or emotion, it becomes difficult to see the cup as anything other than half empty. Therapy is a place where you can learn to detach from the negativity that increases chaos and impedes peaceful living. Therapy teaches the tools to learn to break free of that negative cycle and learn to live with purpose.
