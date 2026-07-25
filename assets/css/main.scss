@@ -35,10 +35,10 @@ body {
   flex-direction: column;
 }
 .archive__item-teaser {
+  flex: 0 0 200px !important;
   height: auto !important;
   overflow: visible !important;
   float: none !important;
-  width: 200px !important;
   margin: 0 auto 30px auto !important;
 }
 .archive__item-teaser img {
