@@ -2,14 +2,12 @@
 ---
 @import "minimal-mistakes/skins/default";
 @import "minimal-mistakes";
-
 body .masthead {
   position: fixed !important;
   top: 0;
   width: 100%;
   z-index: 125;
 }
-
 body {
   padding-top: 70px;
 }
@@ -17,7 +15,6 @@ body {
 .page__lead {
   text-align: center !important;
 }
-
 .page__content {
   max-width: 700px !important;
   margin: 0 auto !important;
@@ -25,22 +22,25 @@ body {
 .page__content p {
   text-align: justify;
 }
-
 .spaced-image {
   margin-bottom: 80px !important;
 }
-
 .bordered-image {
   border: 2px solid #999999 !important;
   padding: 8px !important;
   border-radius: 4px !important; 
 }
-
+.archive__item {
+  display: flex;
+  flex-direction: column;
+}
 .archive__item-teaser {
   height: auto !important;
   overflow: visible !important;
+  float: none !important;
+  width: 100%;
+  margin-bottom: 10px;
 }
-
 .archive__item-teaser img {
   border: 2px solid #999999;
   padding: 4px !important;
