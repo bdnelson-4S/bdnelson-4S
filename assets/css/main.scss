@@ -43,11 +43,12 @@ body {
 .archive__item {
   display: flex;
   flex-direction: column;
-  flex: 1 1 280px;
+  flex: 1 1 400px;
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
   background: #fff;
+  gap: 20px !important;
 }
 .archive__item-teaser {
   height: auto !important;
