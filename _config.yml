@@ -2,7 +2,7 @@ search: true
 search_full_content: true
 search_provider: lunr
 
-title: Ben Nelson: Counselor • Writer • Speaker
+title: "Ben Nelson: Counselor • Writer • Speaker"
 
 description: Therapist and counselor in Smyrna, TN
 remote_theme: "mmistakes/minimal-mistakes"
