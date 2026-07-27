@@ -1,11 +1,11 @@
 ---
 layout: splash
 title: "Ben Nelson"
-tagline: "Counselor • Writer • Speaker"
+tagline: "Exploring the relationship between pain, purpose, and personal growth."
 header:
   overlay_image: /Assets/4SWallpaper.jpg
   overlay_filter: 0.5
-  caption: "Exploring the relationship between pain, purpose, and personal growth."
+  caption: ""
   
 ---
 
