@@ -7,6 +7,8 @@ body .masthead {
   top: 0;
   width: 100%;
   z-index: 125;
+  border-bottom: none !important;
+  box-shadow: none !important;
 }
 body {
   padding-top: 70px;
