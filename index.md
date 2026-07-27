@@ -4,8 +4,8 @@ title: "Ben Nelson"
 tagline: "Counselor • Writer • Speaker"
 header:
   overlay_image: /Assets/4SWallpaper.jpg
-  overlay_filter: 0.4
-  caption: ""
+  overlay_filter: 0.5
+  caption: "Exploring the relationship between pain, purpose, and personal growth."
   
 ---
 
