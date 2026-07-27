@@ -3,9 +3,16 @@ main:
     url: /
   - title: "About"
     url: /about/
+  - title: "Counseling"
+    url: /counseling/   
   - title: "Articles"
     url: /articles/
-  - title: "Resources"
-    url: /resources/
   - title: "Speaking"
     url: /speaking/
+ - title: "Projects"
+    url: /projects/
+ - title: "Contact"
+    url: /contact/ 
+  - title: "Resources"
+    url: /resources/
+    
