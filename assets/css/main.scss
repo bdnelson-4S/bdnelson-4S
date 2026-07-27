@@ -23,7 +23,7 @@ body {
   text-align: justify;
 }
 .spaced-image {
-  margin-bottom: 80px !important;
+  margin-bottom: 150px !important;
 }
 .bordered-image {
   border: 2px solid #999999 !important;
@@ -44,8 +44,6 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1 1 400px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
   overflow: hidden;
   background: #fff;
   row-gap: 50px !important;
@@ -59,7 +57,7 @@ body {
 }
 .archive__item-teaser img {
   border: 2px solid #999999;
-  padding: 4px !important;
+  padding: 1px !important;
   border-radius: 4px !important;
   object-fit: contain !important;
   width: 100%;
