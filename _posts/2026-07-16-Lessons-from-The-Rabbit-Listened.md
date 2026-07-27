@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Lessons from The Rabbit Listened"
-excerpt: "A short 1-2 sentence teaser that shows on the blog list page."
+excerpt: "What you can learn about presence and listening from a children's book."
 header:
   teaser: /Assets/therabbitlistened.jpg
 ---
