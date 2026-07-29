@@ -198,8 +198,8 @@ header:
       <hr class="divider">
 
       <div class="actions">
-        <a class="btn btn-primary" https://www.psychologytoday.com/us/therapists/ben-nelson-smyrna-tn/1408270"#" data-role="schedule">
-          <span>Schedule an Appointment<small>Book online through Psychology Today</small></span>
+        <a class="btn btn-primary" href="https://www.psychologytoday.com/us/therapists/ben-nelson-smyrna-tn/1408270" target="_blank" rel="noopener" data-role="schedule">
+          <span>Schedule an Appointment<small>Book online</small></span>
           <span class="arrow">&rarr;</span>
         </a>
         <a class="btn btn-secondary" href="tel:+16152476831">
@@ -207,7 +207,7 @@ header:
           <span class="arrow">&rarr;</span>
         </a>
         <a class="btn btn-secondary" href="mailto:Bnelson@elliementalhealth.com">
-          <span>Get in Touch<small>Email for any non clinical questions</small></span>
+          <span>Get in Touch<small>Email the office</small></span>
           <span class="arrow">&rarr;</span>
         </a>
       </div>
