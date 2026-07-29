@@ -199,15 +199,15 @@ header:
 
       <div class="actions">
         <a class="btn btn-primary" href="https://www.psychologytoday.com/us/therapists/ben-nelson-smyrna-tn/1408270" target="_blank" rel="noopener" data-role="schedule">
-          <span>Schedule an Appointment<small>Book online</small></span>
+          <span>Schedule a Counseling Appointment<small>Book on Psychology Today</small></span>
           <span class="arrow">&rarr;</span>
         </a>
         <a class="btn btn-secondary" href="tel:+16152476831">
-          <span>Call the Practice<small>(615) 247-6831</small></span>
+          <span>Call Ellie Mental Health to Book Over the Phone<small>(615) 247-6831</small></span>
           <span class="arrow">&rarr;</span>
         </a>
         <a class="btn btn-secondary" href="mailto:Bnelson@elliementalhealth.com">
-          <span>Get in Touch<small>Email the office</small></span>
+          <span>Connect With Me<small>Email the office</small></span>
           <span class="arrow">&rarr;</span>
         </a>
       </div>
@@ -223,7 +223,7 @@ header:
         </div>
         </div>
 
-      <p class="lede" style="margin-top: 32px;">Your new sentences go here.</p>
+      <p class="lede" style="margin-top: 32px;">Whether you're seeking counseling, inviting me to speak, or simply hoping to connect, I appreciate you reaching out..</p>
     </div>
   </div>
 </div>
