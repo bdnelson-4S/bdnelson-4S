@@ -221,6 +221,12 @@ header:
           <span class="direct-label">Email</span>
           <span class="direct-value"><a href="mailto:Bnelson@elliementalhealth.com">Bnelson@elliementalhealth.com</a></span>
         </div>
+        </div>
+
+      <p class="lede" style="margin-top: 32px;">Your new sentences go here.</p>
+    </div>
+  </div>
+</div>
       </div>
     </div>
   </div>
@@ -229,7 +235,4 @@ header:
 
 </div>
 
-      <p class="lede" style="margin-top: 32px;">Your new sentences go here.</p>
-    </div>
-  </div>
-</div>
+     
