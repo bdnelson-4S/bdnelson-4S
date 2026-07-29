@@ -7,29 +7,8 @@ header:
   overlay_filter: 0.4
 ---
 
-I'm happy to answer questions about counseling, speaking engagements, or other professional inquiries. Please don't include confidential or urgent mental health information in email.
-
-Office located in Smyrna TN for in person appointments. Telehealth appointments available throughout Tennessee. 
-
-[Schedule an Appointment]
-[Call the Practice]
-[Get in Touch]
-Phone: (615) 247-6831
-Email: Bnelson@elliementalhealth.com 
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact — Ellie Mental Health</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-  :root {
+  #contact-page {
     --stone: #EFEDE4;
     --stone-deep: #E3E0D3;
     --ink: #2B332E;
@@ -40,25 +19,21 @@ Email: Bnelson@elliementalhealth.com
     --clay-deep: #9C6E45;
     --line: #D7D3C4;
     --paper: #FBFAF7;
-  }
-
-  * { box-sizing: border-box; }
-
-  body {
-    margin: 0;
-    background: var(--stone);
-    color: var(--ink);
     font-family: 'Work Sans', sans-serif;
-    -webkit-font-smoothing: antialiased;
+    color: var(--ink);
+    background: var(--stone);
+    margin: -1em -1em 0;
+    padding: 0;
   }
 
-  .wrap {
+  #contact-page .wrap {
     max-width: 640px;
     margin: 0 auto;
-    padding: 72px 24px 56px;
+    padding: 56px 24px 56px;
+    position: relative;
   }
 
-  .arc {
+  #contact-page .arc {
     position: absolute;
     top: 0;
     left: 50%;
@@ -70,9 +45,9 @@ Email: Bnelson@elliementalhealth.com
     opacity: 0.55;
   }
 
-  .content { position: relative; z-index: 1; }
+  #contact-page .content { position: relative; z-index: 1; }
 
-  .eyebrow {
+  #contact-page .eyebrow {
     font-size: 12.5px;
     letter-spacing: 0.14em;
     text-transform: uppercase;
@@ -81,7 +56,7 @@ Email: Bnelson@elliementalhealth.com
     margin: 0 0 18px;
   }
 
-  h1 {
+  #contact-page h1 {
     font-family: 'Fraunces', serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -92,7 +67,7 @@ Email: Bnelson@elliementalhealth.com
     color: var(--ink);
   }
 
-  .lede {
+  #contact-page .lede {
     font-size: 17px;
     line-height: 1.65;
     color: var(--ink-soft);
@@ -100,7 +75,7 @@ Email: Bnelson@elliementalhealth.com
     max-width: 54ch;
   }
 
-  .caution {
+  #contact-page .caution {
     font-size: 14.5px;
     line-height: 1.6;
     color: var(--ink-soft);
@@ -110,14 +85,14 @@ Email: Bnelson@elliementalhealth.com
     border-left: 2px solid var(--clay);
   }
 
-  .locations {
+  #contact-page .locations {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     margin: 36px 0 40px;
   }
 
-  .badge {
+  #contact-page .badge {
     display: flex;
     align-items: baseline;
     gap: 8px;
@@ -128,7 +103,7 @@ Email: Bnelson@elliementalhealth.com
     font-size: 14px;
   }
 
-  .badge .dot {
+  #contact-page .badge .dot {
     width: 6px;
     height: 6px;
     border-radius: 50%;
@@ -136,29 +111,23 @@ Email: Bnelson@elliementalhealth.com
     flex-shrink: 0;
   }
 
-  .badge strong {
-    font-weight: 600;
-    color: var(--ink);
-  }
+  #contact-page .badge strong { font-weight: 600; color: var(--ink); }
+  #contact-page .badge span.loc { color: var(--ink-soft); }
 
-  .badge span.loc {
-    color: var(--ink-soft);
-  }
-
-  .divider {
+  #contact-page .divider {
     border: none;
     border-top: 1px solid var(--line);
     margin: 8px 0 40px;
   }
 
-  .actions {
+  #contact-page .actions {
     display: flex;
     flex-direction: column;
     gap: 12px;
     margin-bottom: 44px;
   }
 
-  .btn {
+  #contact-page .btn {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -173,39 +142,23 @@ Email: Bnelson@elliementalhealth.com
     transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
   }
 
-  .btn .arrow {
+  #contact-page .btn .arrow {
     font-family: 'Fraunces', serif;
     font-weight: 400;
     font-size: 20px;
     transition: transform 0.15s ease;
   }
 
-  .btn:hover .arrow { transform: translateX(3px); }
-  .btn:focus-visible {
-    outline: 2px solid var(--sage-deep);
-    outline-offset: 3px;
-  }
+  #contact-page .btn:hover .arrow { transform: translateX(3px); }
+  #contact-page .btn:focus-visible { outline: 2px solid var(--sage-deep); outline-offset: 3px; }
 
-  .btn-primary {
-    background: var(--sage-deep);
-    color: var(--paper);
-  }
-  .btn-primary:hover {
-    background: var(--ink);
-    box-shadow: 0 6px 18px rgba(43,51,46,0.18);
-  }
+  #contact-page .btn-primary { background: var(--sage-deep); color: var(--paper); }
+  #contact-page .btn-primary:hover { background: var(--ink); box-shadow: 0 6px 18px rgba(43,51,46,0.18); }
 
-  .btn-secondary {
-    background: var(--paper);
-    color: var(--ink);
-    border: 1px solid var(--line);
-  }
-  .btn-secondary:hover {
-    border-color: var(--clay-deep);
-    box-shadow: 0 4px 14px rgba(43,51,46,0.08);
-  }
+  #contact-page .btn-secondary { background: var(--paper); color: var(--ink); border: 1px solid var(--line); }
+  #contact-page .btn-secondary:hover { border-color: var(--clay-deep); box-shadow: 0 4px 14px rgba(43,51,46,0.08); }
 
-  .btn small {
+  #contact-page .btn small {
     display: block;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
@@ -215,20 +168,16 @@ Email: Bnelson@elliementalhealth.com
     margin-top: 3px;
   }
 
-  .direct {
-    padding-top: 8px;
-  }
-
-  .direct-row {
+  #contact-page .direct-row {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
     padding: 14px 0;
     border-bottom: 1px solid var(--line);
   }
-  .direct-row:first-of-type { border-top: 1px solid var(--line); }
+  #contact-page .direct-row:first-of-type { border-top: 1px solid var(--line); }
 
-  .direct-label {
+  #contact-page .direct-label {
     font-size: 12.5px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -236,70 +185,60 @@ Email: Bnelson@elliementalhealth.com
     font-weight: 600;
   }
 
-  .direct-value {
-    font-size: 16px;
-  }
-
-  .direct-value a {
-    color: var(--ink);
-    text-decoration: none;
-    border-bottom: 1px solid var(--clay);
-  }
-  .direct-value a:hover { color: var(--clay-deep); }
-
-  @media (min-width: 560px) {
-    .wrap { padding-top: 88px; }
-  }
+  #contact-page .direct-value { font-size: 16px; }
+  #contact-page .direct-value a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--clay); }
+  #contact-page .direct-value a:hover { color: var(--clay-deep); }
 </style>
-</head>
-<body>
 
-<svg class="arc" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-  <path d="M0 220 C 220 40, 680 40, 900 220" stroke="#6E7F63" stroke-width="1" opacity="0.25"/>
-  <path d="M40 250 C 260 90, 640 90, 860 250" stroke="#B9855A" stroke-width="1" opacity="0.2"/>
-</svg>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
-<div class="wrap">
-  <div class="content">
-    <p class="eyebrow">Contact</p>
-    <h1>Let's start a conversation.</h1>
-    <p class="lede">I'm happy to answer questions about counseling, speaking engagements, or other professional inquiries.</p>
-    <p class="caution">Please don't include confidential or urgent mental health information in email.</p>
+<div id="contact-page">
+  <svg class="arc" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M0 220 C 220 40, 680 40, 900 220" stroke="#6E7F63" stroke-width="1" opacity="0.25"/>
+    <path d="M40 250 C 260 90, 640 90, 860 250" stroke="#B9855A" stroke-width="1" opacity="0.2"/>
+  </svg>
 
-    <div class="locations">
-      <div class="badge"><span class="dot"></span><strong>In person</strong><span class="loc">Smyrna, TN</span></div>
-      <div class="badge"><span class="dot"></span><strong>Telehealth</strong><span class="loc">across Tennessee</span></div>
-    </div>
+  <div class="wrap">
+    <div class="content">
+      <p class="eyebrow">Contact</p>
+      <h1>Let's start a conversation.</h1>
+      <p class="lede">I'm happy to answer questions about counseling, speaking engagements, or other professional inquiries.</p>
+      <p class="caution">Please don't include confidential or urgent mental health information in email.</p>
 
-    <hr class="divider">
-
-    <div class="actions">
-      <a class="btn btn-primary" href="#" data-role="schedule">
-        <span>Schedule an Appointment<small>Book online</small></span>
-        <span class="arrow">→</span>
-      </a>
-      <a class="btn btn-secondary" href="tel:+16152476831">
-        <span>Call the Practice<small>(615) 247-6831</small></span>
-        <span class="arrow">→</span>
-      </a>
-      <a class="btn btn-secondary" href="mailto:Bnelson@elliementalhealth.com">
-        <span>Get in Touch<small>Email the office</small></span>
-        <span class="arrow">→</span>
-      </a>
-    </div>
-
-    <div class="direct">
-      <div class="direct-row">
-        <span class="direct-label">Phone</span>
-        <span class="direct-value"><a href="tel:+16152476831">(615) 247-6831</a></span>
+      <div class="locations">
+        <div class="badge"><span class="dot"></span><strong>In person</strong><span class="loc">Smyrna, TN</span></div>
+        <div class="badge"><span class="dot"></span><strong>Telehealth</strong><span class="loc">across Tennessee</span></div>
       </div>
-      <div class="direct-row">
-        <span class="direct-label">Email</span>
-        <span class="direct-value"><a href="mailto:Bnelson@elliementalhealth.com">Bnelson@elliementalhealth.com</a></span>
+
+      <hr class="divider">
+
+      <div class="actions">
+        <a class="btn btn-primary" href="#" data-role="schedule">
+          <span>Schedule an Appointment<small>Book online</small></span>
+          <span class="arrow">&rarr;</span>
+        </a>
+        <a class="btn btn-secondary" href="tel:+16152476831">
+          <span>Call the Practice<small>(615) 247-6831</small></span>
+          <span class="arrow">&rarr;</span>
+        </a>
+        <a class="btn btn-secondary" href="mailto:Bnelson@elliementalhealth.com">
+          <span>Get in Touch<small>Email the office</small></span>
+          <span class="arrow">&rarr;</span>
+        </a>
+      </div>
+
+      <div class="direct">
+        <div class="direct-row">
+          <span class="direct-label">Phone</span>
+          <span class="direct-value"><a href="tel:+16152476831">(615) 247-6831</a></span>
+        </div>
+        <div class="direct-row">
+          <span class="direct-label">Email</span>
+          <span class="direct-value"><a href="mailto:Bnelson@elliementalhealth.com">Bnelson@elliementalhealth.com</a></span>
+        </div>
       </div>
     </div>
   </div>
 </div>
-
-</body>
-</html>
