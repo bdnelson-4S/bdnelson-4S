@@ -198,7 +198,7 @@ header:
       <hr class="divider">
 
       <div class="actions">
-        <a class="btn btn-primary" href="#" data-role="schedule">
+        <a class="btn btn-primary" https://www.psychologytoday.com/us/therapists/ben-nelson-smyrna-tn/1408270"#" data-role="schedule">
           <span>Schedule an Appointment<small>Book online through Psychology Today</small></span>
           <span class="arrow">&rarr;</span>
         </a>
