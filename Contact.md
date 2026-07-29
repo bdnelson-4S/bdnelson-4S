@@ -227,4 +227,9 @@ header:
 </div>
 
 
-Footer information
+</div>
+
+      <p class="lede" style="margin-top: 32px;">Your new sentences go here.</p>
+    </div>
+  </div>
+</div>
