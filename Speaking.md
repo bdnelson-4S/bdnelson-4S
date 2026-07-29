@@ -53,3 +53,14 @@ If you're planning a conference, classroom presentation, workshop, webinar, or c
 Please feel free to reach out with information about your event, audience, and goals.
 
 
+<p class="lede" style="margin-top: 32px;">Whether you're seeking counseling, inviting me to speak, or simply hoping to connect, I appreciate you reaching out..</p>
+
+      <a class="btn btn-primary" href="mailto:bnelson@elliementalhealth.com" style="margin-top: 24px;">
+        <span>Send Me an Email<small>bnelson@elliementalhealth.com</small></span>
+        <span class="arrow">&rarr;</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+
