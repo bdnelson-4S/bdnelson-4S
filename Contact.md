@@ -33,18 +33,6 @@ header:
     position: relative;
   }
 
-  #contact-page .arc {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 900px;
-    max-width: 200vw;
-    height: auto;
-    z-index: 0;
-    opacity: 0.55;
-  }
-
   #contact-page .content { position: relative; z-index: 1; }
 
   #contact-page .eyebrow {
@@ -195,11 +183,6 @@ header:
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
 <div id="contact-page">
-  <svg class="arc" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-    <path d="M0 220 C 220 40, 680 40, 900 220" stroke="#6E7F63" stroke-width="1" opacity="0.25"/>
-    <path d="M40 250 C 260 90, 640 90, 860 250" stroke="#B9855A" stroke-width="1" opacity="0.2"/>
-  </svg>
-
   <div class="wrap">
     <div class="content">
       <p class="eyebrow">Contact</p>
@@ -216,7 +199,7 @@ header:
 
       <div class="actions">
         <a class="btn btn-primary" href="#" data-role="schedule">
-          <span>Schedule an Appointment<small>Book online</small></span>
+          <span>Schedule an Appointment<small>Book online through Psychology Today</small></span>
           <span class="arrow">&rarr;</span>
         </a>
         <a class="btn btn-secondary" href="tel:+16152476831">
@@ -224,7 +207,7 @@ header:
           <span class="arrow">&rarr;</span>
         </a>
         <a class="btn btn-secondary" href="mailto:Bnelson@elliementalhealth.com">
-          <span>Get in Touch<small>Email the office</small></span>
+          <span>Get in Touch<small>Email for any non clinical questions</small></span>
           <span class="arrow">&rarr;</span>
         </a>
       </div>
