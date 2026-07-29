@@ -15,7 +15,7 @@ I am a counselor.
 
 ## How I Think
 
-I consistently look for connections. I like to see how things fit together rather than how they differ. Instead of focusing on the differences between science, religion, philosophy, etc., I look for the overlap that occurs between all of them.
+I consistently look for connections. I like to see how things fit together rather than how they differ. I enjoy exploring the places where disciplines intersect. Science, psychology, philosophy, and faith each ask different questions, but they also illuminate one another. Rather than treating them as competing explanations, I'm interested in how each contributes to a richer understanding of what it means to be human.
 
 ## What I Do
 
@@ -23,7 +23,7 @@ I am a counselor currently working with individuals who struggle to let go of th
 
 ## Beyond Work
 
-Outside of work I have many interests that keep me busy. These interests have worked to inform my worldview and my philosophy of life in many ways. Some of these interests include reading, woodworking, art, weight lifting, and board games.
+Outside of work I have many interests that keep me busy. These interests have worked to inform my worldview and my philosophy of life in many ways. Some of these interests include reading, woodworking, art, weight lifting, and board games—they've shaped the way I understand creativity, discipline, relationships, and the value of lifelong learning.
 
 I have been married for 18 years and have four kids. My wife and I are foster parents for children in need around the Middle Tennessee area. I have also volunteered at my church in various capacities over the years and am an active member of The Church of Jesus Christ of Latter-day Saints.
 
