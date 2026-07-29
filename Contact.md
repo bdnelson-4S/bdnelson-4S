@@ -207,7 +207,7 @@ header:
           <span class="arrow">&rarr;</span>
         </a>
         <a class="btn btn-secondary" href="mailto:Bnelson@elliementalhealth.com">
-          <span>Connect With Me<small>Email the office</small></span>
+          <span>Connect With Me<small>Email Me Any </small></span>
           <span class="arrow">&rarr;</span>
         </a>
       </div>
