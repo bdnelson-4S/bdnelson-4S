@@ -7,7 +7,7 @@ header:
   overlay_filter: 0.4
 ---
 
-##Exploring Meaning Through Conversation
+## Exploring Meaning Through Conversation
 
 I enjoy speaking with students, professionals, community organizations, churches, and other groups on topics related to mental health, resilience, relationships, and the search for meaning. Whether presenting to a classroom, leading a workshop, or facilitating a webinar, my goal is not simply to share information but to create thoughtful conversations that encourage reflection and practical growth.
 
@@ -15,7 +15,7 @@ My presentations draw from clinical practice, military service, parenting, and a
 
 ---
 
-##Speaking Topics
+## Speaking Topics
 
 Examples of topics I enjoy presenting include:
 
@@ -32,7 +32,7 @@ I'm always happy to tailor presentations to the needs of a specific audience.
 
 ---
 
-##Selected Speaking Experience
+## Selected Speaking Experience
 
 A gallery of presentations, workshops, webinars, and community events.
 
@@ -46,7 +46,7 @@ A gallery of presentations, workshops, webinars, and community events.
 
 ---
 
-##Interested in Having Me Speak?
+## Interested in Having Me Speak?
 
 If you're planning a conference, classroom presentation, workshop, webinar, or community event, I'd be happy to discuss how I can contribute. Whether your audience is made up of students, clinicians, educators, community members, or organizational leaders, I strive to create presentations that are engaging, practical, and grounded in thoughtful conversation.
 
