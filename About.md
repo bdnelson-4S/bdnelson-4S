@@ -11,7 +11,7 @@ Hi, I'm Ben Nelson.
 
 ## Who I Am
 
-I am a counselor.
+Before making the decision to start a career in counseling I served in the United States Air Force. Through my own lived experience in receiving counseling I found that there were too few male providers that were able to identify with my presenting problems. I decided that I would become that person that would be capable of listening and of understanding. I excel at helping people detach from the thoughts, emotions, and beliefs that are holding themm back..
 
 ## How I Think
 
