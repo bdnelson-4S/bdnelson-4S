@@ -35,10 +35,7 @@ I have been married for 18 years and have four kids. My wife and I are foster pa
 
 ## Credentials and Education
 
-A-LPC-MHSP License #7913 (Supervised by Kim Freeman, License #2475)
-
-MA in Clinical Mental Health Counseling, Trevecca Nazarene University (2024)
-
-AA in Intelligence Studies and Technology, The Community College of the Air Force (2016)
-
-BA in International Relations, American Military University (2013)
+A-LPC-MHSP License #7913 (Supervised by Kim Freeman, License #2475). 
+MA in Clinical Mental Health Counseling, Trevecca Nazarene University (2024). 
+AA in Intelligence Studies and Technology, The Community College of the Air Force (2016)<br>
+BA in International Relations, American Military University (2013). 
