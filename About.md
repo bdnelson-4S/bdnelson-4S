@@ -7,7 +7,7 @@ header:
   overlay_filter: 0.4
 ---
 
-Hi, I'm Ben Nelson.
+Hi, I'm Ben Nelson. I am a builder. I like to take ideas and questions and build them into understanding. 
 
 ## Who I Am
 
@@ -22,7 +22,9 @@ I consistently look for connections. I like to see how things fit together rathe
 
 ## What I Do
 
-I am a counselor currently working with individuals who struggle to let go of the emotions, thoughts, beliefs, and experiences they accumulate throughout life. I am also a speaker, using my voice in various forums to share what I have learned on different topics. I am also a writer, attempting to use the written word to explore ideas that I wrestle with or have wrestled with.
+Whether I'm meeting with a counseling client, speaking to an audience, or writing an article, my goal is the same: to help people think more clearly, understand themselves more deeply, and move toward lives of greater meaning and purpose.
+
+At heart, I'm someone who enjoys exploring big questions. I'm fascinated by what shapes us, what helps us grow, and what gives life meaning. Counseling, speaking, writing, and even art are all different ways I explore those questions and invite others into the conversation. 
 
 ## Beyond Work
 
