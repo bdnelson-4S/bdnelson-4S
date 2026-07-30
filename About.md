@@ -181,7 +181,7 @@ header:
 <div id="about-page">
   <div class="wrap">
     <div class="content">
-      <p class="eyebrow">About</p>
+      <!-- <p><p class="eyebrow">About</p></p> -->
       <!-- <p><h1>About Me</h1></p> -->
       <p class="lede">Hi, I’m Ben Nelson. I am someone who looks for connections. I enjoy taking the pieces of life—our thoughts, beliefs, experiences, and emotions—and discovering how they can become building blocks rather than burdens that hold us back.</p>
 
