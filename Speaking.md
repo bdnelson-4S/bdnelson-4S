@@ -37,7 +37,11 @@ header:
   position: relative;
 }
 
-  #speaking-page .content { position: relative; z-index: 1; }
+  #speaking-page .content { 
+  position: relative; 
+  z-index: 1; 
+  text-align: center; /* Centers all headings, text, and dividers */
+}
 
   #speaking-page .eyebrow {
     font-size: 12.5px;
@@ -74,8 +78,8 @@ header:
     font-size: 17px;
     line-height: 1.65;
     color: var(--ink-soft);
-    margin: 0 0 12px;
-    max-width: 54ch;
+    margin: 0 auto 12px auto;
+    max-width: 70%;
   }
 
   #speaking-page .divider {
@@ -177,7 +181,7 @@ header:
 <div id="speaking-page">
   <div class="wrap">
     <div class="content">
-      <p class="eyebrow">Speaking</p>
+      <!-- <p><p class="eyebrow">Speaking</p></p> -->
       <h1>Exploring Meaning Through Conversation</h1>
       <p class="lede">I enjoy speaking with students, professionals, community organizations, churches, and other groups on topics related to mental health, resilience, relationships, and the search for meaning. Whether presenting to a classroom, leading a workshop, or facilitating a webinar, my goal is not simply to share information but to create thoughtful conversations that encourage reflection and practical growth.</p>
       <p class="lede">My presentations draw from clinical practice, military service, parenting, and a lifelong interest in understanding what helps people build meaningful lives. Rather than offering simple answers, I hope to provide useful perspectives, ask worthwhile questions, and create space for honest discussion.</p>
