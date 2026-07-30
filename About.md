@@ -74,7 +74,7 @@ header:
     font-size: 17px;
     line-height: 1.65;
     color: var(--ink-soft);
-    margin: 0 0 12px;
+    margin: 0 auto 12px auto;
     max-width: 70%;
   }
 
