@@ -26,12 +26,13 @@ header:
     padding: 0;
   }
 
-  #speaking-page .wrap {
-    max-width: 90%;
-    margin: 0 auto;
-    padding: 56px 32px 56px;
-    position: relative;
-  }
+  #contact-page .wrap {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 56px 32px 56px;
+  position: relative;
+}
 
   #speaking-page .content { position: relative; z-index: 1; }
 
