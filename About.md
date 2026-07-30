@@ -184,7 +184,7 @@ header:
       <hr class="divider">
 
       <h2>Who I Am</h2>
-      <p class="lede">Becoming a counselor was not always the plan. In high school, I wanted to me a musician and I played lead guitar in a progressive metal band. However, I made a fairly abrupt left turn and joined the Air Force where I served as an Intelligence Analyst for 12 years. During my time in service I experienced my own challenges with mental health. I found out very quickly that there were few people who could understand my story in a way that felt helpful. I also realized that there were too few male counselors available for people who were looking for someone who could relate to some of the challenges I had faced.</p>
+      <p class="lede">Becoming a counselor was not always the plan. In high school, I wanted to be a musician and I played lead guitar in a progressive metal band. However, I made a fairly abrupt left turn and joined the Air Force where I served as an Intelligence Analyst for 12 years. During my time in service I experienced my own challenges with mental health. I found out very quickly that there were few people who could understand my story in a way that felt helpful. I also realized that there were too few male counselors available for people who were looking for someone who could relate to some of the challenges I had faced.</p>
       <p class="lede">That realization changed the direction of my life. I decided I wanted to become the kind of counselor I had once been looking for—someone who listens and truly understands, not because they have the same experiences but because they understand what it feels like to share in the human experience.</p>
 
       <hr class="divider">
