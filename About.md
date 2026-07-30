@@ -75,7 +75,7 @@ header:
     line-height: 1.65;
     color: var(--ink-soft);
     margin: 0 0 12px;
-    max-width: 80%;
+    max-width: 70%;
   }
 
   #about-page .divider {
