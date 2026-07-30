@@ -24,6 +24,9 @@ header:
     background: var(--stone);
     margin: -1em -1em 0;
     padding: 0;
+    max-width: none !important;
+    width: 100vw !important;
+    margin-left: calc(-50vw + 50%) !important;
   }
 
  #contact-page .wrap {
