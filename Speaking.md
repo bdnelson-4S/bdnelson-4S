@@ -27,7 +27,7 @@ header:
   }
 
   #speaking-page .wrap {
-    max-width: 640px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 56px 24px 56px;
     position: relative;
