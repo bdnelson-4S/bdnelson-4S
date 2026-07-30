@@ -9,8 +9,6 @@ main:
     url: /articles/
   - title: "Speaking"
     url: /speaking/
-  - title: "Projects"
-    url: /projects/
   - title: "Contact"
     url: /contact/ 
   - title: "Resources"
