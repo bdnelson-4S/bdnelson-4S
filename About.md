@@ -37,7 +37,11 @@ header:
   position: relative;
 }
 
-  #about-page .content { position: relative; z-index: 1; }
+ #about-page .content { 
+  position: relative; 
+  z-index: 1; 
+  text-align: center; /* Centers all headings, text, and dividers */
+}
 
   #about-page .eyebrow {
     font-size: 12.5px;
