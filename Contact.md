@@ -27,9 +27,9 @@ header:
   }
 
   #contact-page .wrap {
-    max-width: 640px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 56px 24px 56px;
+    padding: 56px 32px 56px;
     position: relative;
   }
 
