@@ -29,7 +29,7 @@ header:
   #speaking-page .wrap {
     max-width: 900px;
     margin: 0 auto;
-    padding: 56px 24px 56px;
+    padding: 56px 32px 56px;
     position: relative;
   }
 
@@ -213,8 +213,8 @@ header:
       <p class="lede">If you're planning a conference, classroom presentation, workshop, webinar, or community event, I'd be happy to discuss how I can contribute. Whether your audience is made up of students, clinicians, educators, community members, or organizational leaders, I strive to create presentations that are engaging, practical, and grounded in thoughtful conversation.</p>
       <p class="lede">Please feel free to reach out with information about your event, audience, and goals.</p>
 
-      <a class="btn btn-primary" href="/contact/">
-        <span>Get in Touch<small>Discuss your event</small></span>
+      <a class="btn btn-primary" href="mailto:bnelson@elliementalhealth.com">
+        <span>Get in Touch<small>bnelson@elliementalhealth.com</small></span>
         <span class="arrow">&rarr;</span>
       </a>
     </div>
