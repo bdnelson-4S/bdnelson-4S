@@ -29,7 +29,7 @@ header:
     margin-left: calc(-50vw + 50%) !important;
   }
 
-  #contact-page .wrap {
+  #speaking-page .wrap {
   width: 90%;
   max-width: 1100px;
   margin: 0 auto;
@@ -104,6 +104,7 @@ header:
     padding: 9px 16px;
     font-size: 14px;
     color: var(--ink);
+    justify-content: center;
   }
 
   #speaking-page .experience-list {
@@ -135,7 +136,7 @@ header:
   }
 
   #speaking-page .btn {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: space-between;
     gap: 16px;
