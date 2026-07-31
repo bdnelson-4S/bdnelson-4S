@@ -16,3 +16,9 @@ defaults:
       header:
         overlay_image: /Assets/4SWallpaper.jpg
         overlay_filter: 0.4
+  - scope:
+      path: ""
+      type: posts
+    values:
+      header:
+        overlay_image: null
