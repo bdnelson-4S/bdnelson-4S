@@ -227,10 +227,14 @@ header:
 
       <!-- Callout / Takeaway Box Component -->
       <div class="takeaway-box">
-        <p>Asking a simple question like <em>"Would you like me to listen or would you like me to respond?"</em> can help to show you are present and willing to provide whatever the other person needs in the moment.</p>
+        <p>Quote</p>
       </div>
 
-      <!-- Point 4: Meeting People Where They Are -->
+        <!-- Point 4: Suffering & Comfort -->
+      <p>Asking a simple question like <em>"Would you like me to listen or would you like me to respond?"</em> can help to show you are present and willing to provide whatever the other person needs in the moment.</p>
+
+
+      <!-- Point 5: Meeting People Where They Are -->
       <p>There are times where simply being present is the best thing you can do. However, there are moments when responding with words of encouragement or laughter can help calm or lighten the situation. Meeting someone where they are emotionally is such an important and valuable service to be given to a person you care about.</p>
 
       <!-- Summary & Conclusion Paragraphs -->
