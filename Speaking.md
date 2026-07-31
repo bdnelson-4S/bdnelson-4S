@@ -278,13 +278,12 @@ header:
       <p class="lede">Examples of topics I enjoy presenting include:</p>
       <ul class="topic-list">
         <li>Mental health and emotional well-being</li>
-        <li>Resilience through adversity</li>
+        <li>Overcoming adversity</li>
         <li>Meaning, purpose, and values</li>
-        <li>Relationships and communication</li>
         <li>Suicide prevention and hope</li>
         <li>Military and veteran transitions</li>
-        <li>Professional development for counselors</li>
-        <li>Leadership and personal growth</li>
+        <li>Life transitions</li>
+        <li>Parenting</li>
       </ul>
       <p class="lede">I'm always happy to tailor presentations to the needs of a specific audience.</p>
 
@@ -297,9 +296,6 @@ header:
         <li>Counseling Conference Presentation</li>
         <li>Graduate Guest Lecture</li>
         <li>Out of Darkness Suicide Prevention Walk</li>
-        <li>Community Webinars</li>
-        <li>Professional Trainings</li>
-        <li>Future workshops and conference presentations</li>
       </ul>
 
       <hr class="divider">
@@ -309,8 +305,8 @@ header:
       <p class="lede">If you're planning a conference, classroom presentation, workshop, webinar, or community event, I'd be happy to discuss how I can contribute. Whether your audience is made up of students, clinicians, educators, community members, or organizational leaders, I strive to create presentations that are engaging, practical, and grounded in thoughtful conversation.</p>
       <p class="lede">Please feel free to reach out with information about your event, audience, and goals.</p>
 
-      <a class="btn btn-primary" href="mailto:bnelson@elliementalhealth.com">
-        <span>Get in Touch<small>bnelson@elliementalhealth.com</small></span>
+      <a class="btn btn-primary" href="mailto:info@bennelson.org">
+        <span>Get in Touch<small>info@bennelson.org</small></span>
         <span class="arrow">&rarr;</span>
       </a>
 
