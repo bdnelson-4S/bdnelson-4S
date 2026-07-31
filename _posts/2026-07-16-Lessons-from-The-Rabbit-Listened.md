@@ -4,10 +4,10 @@
 # ==========================================================================
 
 layout: single                             # Uses the theme's 'single' page layout template
-title: "Lessons from The Rabbit Listened"  # Sets the page title and primary header metadata
-excerpt: "What you can learn about presence and listening from a children's book." # Page summary for card teasers & search previews
+title: ""  # Sets the page title and primary header metadata
+excerpt: "" # Page summary for card teasers & search previews
 header:
-  teaser: /Assets/therabbitlistened.jpg    # Defines thumbnail image used in grid post previews
+  teaser:     # Defines thumbnail image used in grid post previews
 ---
 
 <!-- ==========================================================================
