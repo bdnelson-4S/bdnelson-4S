@@ -244,5 +244,9 @@ header:
 
     </div> <!-- End .prose -->
 
+     <div class="nav-back">
+      <a href="/articles/" class="btn-back">&larr; Back to Articles</a>
+    </div>
+
   </div> <!-- End .wrap -->
 </div> <!-- End #article-page -->
