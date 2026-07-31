@@ -4,8 +4,8 @@
 # ==========================================================================
 
 layout: single                             # Uses the theme's 'single' page layout template
-title: "Lessons from The Rabbit Listened"  # Sets the page title and primary header metadata
-excerpt: "What you can learn about presence and listening from a children's book." # Page summary for card teasers & search previews
+title: ""  # Sets the page title and primary header metadata
+excerpt: "" # Page summary for card teasers & search previews
 header:
   teaser: /Assets/therabbitlistened.jpg    # Defines thumbnail image used in grid post previews
 ---
@@ -214,12 +214,16 @@ header:
       <!-- Point 3: Suffering & Comfort -->
       <p>Discomfort with seeing other's suffering can make listening and being present difficult. How many times have you experienced disappointment only to have someone say “at least you still have your health”. And how often do we hear and say phrases like “when one door closes another one opens” to try to provide comfort? While these sentiments may be rooted in truth they often don't help a person process through the disappointment they face. Seeing a friend crying may make us uncomfortable so we offer a tissue and say “don't cry, it will be alright”. When they may just need to have a loved one quietly sit with them and be there after the tears when they are ready to talk.</p>
 
+
+      <!-- Point 4: Suffering & Comfort -->
+      <p>Asking a simple question like <em>"Would you like me to listen or would you like me to respond?"</em> can help to show you are present and willing to provide whatever the other person needs in the moment. </p>
+      
       <!-- Callout / Takeaway Box Component -->
       <div class="takeaway-box">
-        <p>Asking a simple question like <em>"Would you like me to listen or would you like me to respond?"</em> can help to show you are present and willing to provide whatever the other person needs in the moment.</p>
+        <p>Quote</p>
       </div>
 
-      <!-- Point 4: Meeting People Where They Are -->
+      <!-- Point 5: Meeting People Where They Are -->
       <p>There are times where simply being present is the best thing you can do. However, there are moments when responding with words of encouragement or laughter can help calm or lighten the situation. Meeting someone where they are emotionally is such an important and valuable service to be given to a person you care about.</p>
 
       <!-- Summary & Conclusion Paragraphs -->
@@ -228,6 +232,11 @@ header:
       <p>When you see someone you know and care about struggling with their own falling blocks, remember to be a rabbit and start with listening and not jumping straight into fix it mode.</p>
 
     </div> <!-- End .prose -->
+
+ <!-- Navigation Link Back to Main Articles Grid -->
+    <div class="nav-back">
+      <a href="/articles/" class="btn-back">&larr; Back to Articles</a>
+    </div>
 
   </div> <!-- End .wrap -->
 </div> <!-- End #article-page -->
