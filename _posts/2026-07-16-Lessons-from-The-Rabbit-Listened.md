@@ -203,7 +203,7 @@ header:
       <p>This simple story shows little Taylor building blocks when they suddenly come tumbling down. A series of animals comes in and suggests Taylor do things like talk, shout, hide, and laugh. But Taylor doesn't want to do any of those things. Eventually a rabbit comes and stays with him until Taylor naturally goes through the actions the animals suggested. The rabbit’s simple presence with Taylor provided the space and comfort needed to process the loss naturally.</p>
 
       <!-- Transition Section Heading -->
-      <h2>What Can Adults Learn From This?</h2>
+      <h2>What Can Adults Learn From This Simple Story?</h2>
 
       <!-- Point 1: Emotional Processing -->
       <p>Not everyone processes their emotions in the same way. While a tumbling pile of blocks is not the same as a crumbling relationship, both involve experiencing a sense of loss, and there is a process of working through the sadness that follows. That process is rarely a straight line where we experience emotion A then B, etc. Despite the animals suggesting common behavioral responses, the reality is that some of us don't need to laugh at the cheesy breakup line before getting angry and shouting about the end of the relationship we thought would last.</p>
