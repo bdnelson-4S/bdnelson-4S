@@ -219,9 +219,12 @@ header:
         <li>MA in Clinical Mental Health Counseling, Trevecca Nazarene University (2024)</li>
         <li>AA in Intelligence Studies and Technology, The Community College of the Air Force (2016)</li>
         <li>BA in International Relations, American Military University (2013)</li>
+        </ul>
 
       <hr class="divider">
 
 
-
+</div>
+</div>
+</div>
 
