@@ -31,8 +31,8 @@ header:
           <span>Call Ellie Mental Health to Book Over the Phone<small>(615) 247-6831</small></span>
           <span class="arrow">&rarr;</span>
         </a>
-        <a class="btn btn-secondary" href="mailto:Bnelson@elliementalhealth.com">
-          <span>Connect With Me<small>Email Me Any</small></span>
+        <a class="btn btn-secondary" href="mailto:info@bennelson.org">
+          <span>Connect With Me<small>Email Me any non-clinical questions</small></span>
           <span class="arrow">&rarr;</span>
         </a>
       </div>
@@ -44,7 +44,7 @@ header:
         </div>
         <div class="direct-row">
           <span class="direct-label">Email</span>
-          <span class="direct-value"><a href="mailto:Bnelson@elliementalhealth.com">Bnelson@elliementalhealth.com</a></span>
+          <span class="direct-value"><a href="mailto:info@bennelson.org">Bnelson@elliementalhealth.com</a></span>
         </div>
       </div>
 
