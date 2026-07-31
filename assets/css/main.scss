@@ -4,11 +4,11 @@
    1. FRAMEWORK IMPORTS
    ========================================================================== */
 
-/* Imports the default color scheme (skin) for the Minimal Mistakes theme */
 @import "minimal-mistakes/skins/default";
-
-/* Imports the core Minimal Mistakes theme stylesheet and layout rules */
 @import "minimal-mistakes";
+
+/* Google Fonts used by custom-designed pages (Contact, Speaking, etc.) */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap');
 
 
 /* ==========================================================================
@@ -17,25 +17,34 @@
 
 /* Fixes the main header/navigation bar to the top of the viewport */
 body .masthead {
-  position: fixed !important;      /* Locks the header so it doesn't scroll with the page */
-  top: 0;                          /* Aligns header directly to the top edge */
-  width: 100%;                     /* Forces header to stretch across the full screen width */
-  z-index: 125;                    /* Ensures header sits above other content layers */
-  border-bottom: none !important;  /* Removes default bottom border line */
-  box-shadow: none !important;     /* Removes default drop shadow underneath header */
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 125;
+  border-bottom: none !important;
+  box-shadow: none !important;
 }
 
-/* Styles the inner container of the fixed header */
-.masthead__inner-wrap {
-  background-color: #EFEDE4 !important; /* Sets header background to a soft cream color */
-  padding-top: 10px !important;        /* Adds vertical spacing above header content */
-  padding-bottom: 10px !important;     /* Adds vertical spacing below header content */
+/* Nav bar background + inner spacing. Also covers .greedy-nav (theme's
+   mobile/overflow nav menu) so it matches on every screen size. */
+.masthead__inner-wrap,
+.greedy-nav {
+  background-color: #EFEDE4 !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
 }
 
-/* Styles the primary site title / brand name in the header */
+/* Keeps nav links/title transparent so they don't get their own
+   background box on top of the masthead background above */
+.greedy-nav a,
+.greedy-nav .visible-links li,
 .site-title {
-  font-size: 1.5rem; /* Sets font size (approx. 24px) */
-  color: #2a6f97;    /* Applies a deep blue text color */
+  background-color: transparent !important;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  color: #2a6f97;
 }
 
 
@@ -43,165 +52,400 @@ body .masthead {
    3. GLOBAL BODY & PAGE LAYOUT
    ========================================================================== */
 
-/* Applies base page layout and offset for fixed header */
 body {
-  padding-top: 77px;                   /* Pushes page content down so fixed header doesn't overlap it */
-  background-color: #EFEDE4 !important; /* Matches overall page background to soft cream */
+  padding-top: 77px; /* Must match .masthead's real rendered height, or
+                         content will start underneath the fixed nav.
+                         Re-check this number any time the nav's height
+                         changes (font size, padding, added menu items). */
+  background-color: #EFEDE4 !important;
 }
 
-/* Hero section container (header/banner region) */
 .page__hero-body {
-  width: 100% !important;        /* Forces full width */
-  text-align: center !important; /* Centers all inner text/elements */
+  width: 100% !important;
+  text-align: center !important;
 }
 
-/* Hero & Main Page Headers */
 .page__title,
 .page__lead {
-  text-align: center !important; /* Centers main titles and intro subtext */
+  text-align: center !important;
 }
 
-/* Main body text container */
+/* Standard markdown page body (About, Articles, etc.) */
 .page__content {
-  max-width: 700px !important;  /* Limits line length for optimal readability */
-  margin: 0 auto !important;    /* Horizontally centers content container on page */
+  max-width: 700px !important;
+  margin: 0 auto !important;
 }
 
-/* Paragraph text within main body content */
 .page__content p {
-  text-align: justify; /* Justifies text alignment (even left and right edges) */
-   text-align: justify !important;
+  text-align: justify !important;
   text-justify: inter-word;
   hyphens: auto;
 }
 
 
 /* ==========================================================================
-   4. IMAGE CUSTOM UTILITIES
+   4. IMAGE UTILITIES
    ========================================================================== */
 
-/* Utility class to create large vertical gap after an image */
 .spaced-image {
-  margin-bottom: 150px !important; /* Adds 150px space below images using this class */
+  margin-bottom: 150px !important;
 }
 
-/* Utility class to frame images with a border */
 .bordered-image {
-  border: 2px solid #999999 !important; /* Adds a medium-grey border */
-  padding: 8px !important;              /* Creates inset space between image and border */
-  border-radius: 4px !important;        /* Softens corners with rounded edges */
+  border: 2px solid #999999 !important;
+  padding: 8px !important;
+  border-radius: 4px !important;
 }
 
 
 /* ==========================================================================
-   5. ARTICLE CARD GRID (.entries-grid)
+   5. ARTICLE CARD GRID (Articles list page)
    ========================================================================== */
 
-/* Outer container for grid of post/article cards */
 .entries-grid {
-  display: flex;         /* Activates Flexbox layout */
-  flex-wrap: wrap;       /* Allows cards to wrap onto new lines on smaller screens */
-  gap: 20px;             /* Creates 20px spacing between individual grid cards */
-  max-width: 1000px;     /* Limits total grid width */
-  margin: 0 auto;        /* Centers entire grid section on page */
-  padding: 20px;         /* Adds inner edge padding */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-/* Individual article/post card */
 .archive__item {
-  display: flex;                   /* Enables Flexbox inside card */
-  flex-direction: column;          /* Stacks thumbnail, title, and excerpt vertically */
-  flex: 1 1 400px;                 /* Flex grow/shrink logic; base width target is 400px */
-  overflow: hidden;                /* Clips content overflowing card bounds */
-  background: #fff;                /* Gives cards a clean white background */
-  row-gap: 50px !important;        /* Forces 50px vertical gap between internal card elements */
-  column-gap: 50px !important;     /* Forces 50px horizontal gap (if flex direction changes) */
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 400px;
+  overflow: hidden;
+  background: #fff;
+  row-gap: 50px !important;
+  column-gap: 50px !important;
 }
 
-/* Card teaser image container */
 .archive__item-teaser {
-  height: auto !important;     /* Allows height to adjust naturally */
-  overflow: visible !important; /* Prevents clipping of internal image frame */
-  float: none !important;       /* Overrides default theme floating layout */
-  margin: 0 !important;        /* Clears default margins */
+  height: auto !important;
+  overflow: visible !important;
+  float: none !important;
+  margin: 0 !important;
 }
 
-/* Card image styling */
 .archive__item-teaser img {
-  border: 2px solid #999999;     /* Adds grey border to image */
-  padding: 1px !important;       /* Adds slight inset padding inside border */
-  border-radius: 4px !important; /* Rounds image corners */
-  object-fit: contain !important;/* Scales image to fit inside frame without distorting aspect ratio */
-  width: 100%;                   /* Makes image stretch full width of card */
-  height: 180px;                 /* Fixes height to uniform 180px across all cards */
-  position: static !important;   /* Resets positioning context to standard layout flow */
+  border: 2px solid #999999;
+  padding: 1px !important;
+  border-radius: 4px !important;
+  object-fit: contain !important;
+  width: 100%;
+  height: 180px;
+  position: static !important;
 }
 
-/* Card title container */
 .archive__item-title {
-  margin-top: 20px;    /* Adds space above title */
-  margin-bottom: 15px; /* Adds space below title */
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
-/* Card title links */
 .archive__item-title a {
-  text-decoration: none; /* Removes standard underline from link */
-  color: #0066cc;        /* Bright blue text color */
-  font-size: 1.2rem;     /* Slightly larger font for post title */
+  text-decoration: none;
+  color: #0066cc;
+  font-size: 1.2rem;
 }
 
-/* Hover state for card title links */
 .archive__item-title a:hover {
-  text-decoration: underline; /* Displays underline when user hovers over title */
+  text-decoration: underline;
 }
 
-/* Card snippet / short summary text */
 .archive__item-excerpt {
-  color: #555;                          /* Medium dark grey text color */
-  font-size: 0.95rem;                   /* Slightly reduced font size */
-  margin: 0;                            /* Clears default margins */
-  padding: 0 15px 15px 15px;            /* Adds inner padding on left, right, and bottom */
+  color: #555;
+  font-size: 0.95rem;
+  margin: 0;
+  padding: 0 15px 15px 15px;
 }
 
-
-/* ==========================================================================
-   6. TOPIC TAG BUBBLES / PILLS
-   ========================================================================== */
-
-/* Unordered list wrapper for tag pills */
+/* Rounded pill list used on plain-markdown pages (e.g. a topics list
+   dropped directly into a markdown page without the full custom-page
+   treatment below) */
 .topic-bubbles {
-  list-style: none;     /* Removes bullet points from list */
-  display: flex;        /* Lays items out horizontally */
-  flex-wrap: wrap;      /* Wraps pills to new line if screen is narrow */
-  gap: 10px;            /* Spacing between individual pills */
-  padding: 0;           /* Clears list padding */
-  margin: 0 0 20px 0;   /* Adds spacing underneath tag container */
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  margin: 0 0 20px 0;
 }
 
-/* Individual tag bubble item */
 .topic-bubbles li {
-  background: #f4f3ee;     /* Off-white background color */
-  border: 1px solid #d7d3c4;/* Light tan border frame */
-  border-radius: 999px;    /* Creates fully rounded pill shape */
-  padding: 8px 16px;       /* Adds internal padding (top/bottom, left/right) */
-  font-size: 0.9rem;       /* Compact text size */
+  background: #f4f3ee;
+  border: 1px solid #d7d3c4;
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
 }
 
 
 /* ==========================================================================
-   7. NAVBAR BACKGROUND OVERRIDES
+   6. CUSTOM PAGE DESIGN SYSTEM
+   Shared by any fully custom-designed page — currently Contact and
+   Speaking. Uses a reusable class (.custom-page) instead of a per-page
+   ID, so every custom page automatically gets the same look, and any
+   future custom page just needs this one class with no new CSS.
+
+   TO USE ON A NEW PAGE: in that page's .md file, wrap your content in
+   <div class="custom-page"><div class="wrap"><div class="content">
+   ...</div></div></div> — no <style> block or font <link> tags needed,
+   since both are already handled here.
    ========================================================================== */
 
-/* Removes background color from main navigation wrapper */
-.masthead,
-.masthead__inner-wrap,
-.greedy-nav {
-  background-color: #EFEDE4 !important; /* Forces background to match site cream color */
+.custom-page {
+  /* ---- Color palette tokens — change once here, updates every
+     custom page site-wide ---- */
+  --stone: #EFEDE4;
+  --stone-deep: #E3E0D3;
+  --ink: #2B332E;
+  --ink-soft: #545E56;
+  --sage: #6E7F63;
+  --sage-deep: #3F4F3F;
+  --clay: #B9855A;
+  --clay-deep: #9C6E45;
+  --line: #D7D3C4;
+  --paper: #FBFAF7;
+
+  font-family: 'Work Sans', sans-serif;
+  color: var(--ink);
+  background: var(--stone);
+
+  /* Full-bleed breakout: lets the background span the entire browser
+     width even though the theme's .page__content wrapper constrains
+     everything to 700px (see Section 3 above) */
+  margin: -1em -1em 0;
+  padding: 0;
+  max-width: none !important;
+  width: 100vw !important;
+  margin-left: calc(-50vw + 50%) !important;
+  box-sizing: border-box;
 }
 
-/* Ensures transparency for inner nav links, title, and menu items */
-.greedy-nav a,
-.greedy-nav .visible-links li,
-.site-title {
-  background-color: transparent !important; /* Prevents theme from applying contrasting backgrounds */
+.custom-page *,
+.custom-page *::before,
+.custom-page *::after {
+  box-sizing: inherit;
+}
+
+/* ---- Layout wrapper: controls how wide the readable content area
+   is, independent of the full-bleed background above ---- */
+.custom-page .wrap {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 20px;
+  position: relative;
+}
+
+.custom-page .content {
+  position: relative;
+  z-index: 1;
+}
+
+/* ---- Typography ---- */
+.custom-page .eyebrow {
+  font-size: 12.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--sage-deep);
+  font-weight: 600;
+  margin: 0 0 18px;
+}
+
+.custom-page h1 {
+  font-family: 'Fraunces', serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: clamp(28px, 5vw, 40px);
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  margin: 0 0 20px;
+  color: var(--ink);
+}
+
+.custom-page h2 {
+  font-family: 'Fraunces', serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: clamp(20px, 3vw, 24px);
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  margin: 0 0 16px;
+  color: var(--ink);
+}
+
+/* Body/lead paragraphs. max-width caps line length for readability
+   while still scaling down naturally on narrow screens. */
+.custom-page .lede {
+  font-size: clamp(15px, 2vw, 17px);
+  line-height: 1.65;
+  color: var(--ink-soft);
+  margin: 0 0 12px;
+  max-width: 900px;
+}
+
+.custom-page .caution {
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  font-style: italic;
+  margin: 20px 0 0;
+  padding-left: 14px;
+  border-left: 2px solid var(--clay);
+}
+
+.custom-page .divider {
+  border: none;
+  border-top: 1px solid var(--line);
+  margin: 36px 0;
+}
+
+/* ---- Rounded pill badges (Contact's location badges, Speaking's
+   topic list — same visual component, reused) ---- */
+.custom-page .locations,
+.custom-page .topic-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.custom-page .badge,
+.custom-page .topic-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 9px 16px;
+  font-size: 14px;
+  color: var(--ink);
+}
+
+.custom-page .badge .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--sage);
+  flex-shrink: 0;
+}
+
+.custom-page .badge strong { font-weight: 600; color: var(--ink); }
+.custom-page .badge span.loc { color: var(--ink-soft); }
+
+/* ---- Simple dot-bullet list (Speaking's experience list) ---- */
+.custom-page .experience-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.custom-page .experience-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 16px;
+}
+
+.custom-page .experience-list li:first-child {
+  border-top: 1px solid var(--line);
+}
+
+.custom-page .experience-list li::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--sage);
+  flex-shrink: 0;
+}
+
+/* ---- Buttons ---- */
+.custom-page .btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  text-decoration: none;
+  padding: 18px 22px;
+  border-radius: 10px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+  margin-top: 24px;
+}
+
+.custom-page .btn .arrow {
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  font-size: 20px;
+  transition: transform 0.15s ease;
+}
+
+.custom-page .btn:hover .arrow { transform: translateX(3px); }
+.custom-page .btn:focus-visible { outline: 2px solid var(--sage-deep); outline-offset: 3px; }
+
+.custom-page .btn-primary { background: var(--sage-deep); color: var(--paper); }
+.custom-page .btn-primary:hover { background: var(--ink); box-shadow: 0 6px 18px rgba(43,51,46,0.18); }
+
+.custom-page .btn-secondary { background: var(--paper); color: var(--ink); border: 1px solid var(--line); }
+.custom-page .btn-secondary:hover { border-color: var(--clay-deep); box-shadow: 0 4px 14px rgba(43,51,46,0.08); }
+
+.custom-page .btn small {
+  display: block;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12.5px;
+  letter-spacing: 0.01em;
+  opacity: 0.8;
+  margin-top: 3px;
+  word-break: break-word;
+}
+
+/* ---- Direct contact info rows (Contact page's Phone/Email list) ---- */
+.custom-page .direct-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.custom-page .direct-row:first-of-type { border-top: 1px solid var(--line); }
+
+.custom-page .direct-label {
+  font-size: 12.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+
+.custom-page .direct-value { font-size: 16px; }
+.custom-page .direct-value a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--clay); }
+.custom-page .direct-value a:hover { color: var(--clay-deep); }
+
+/* ---- Mobile responsive adjustments for all custom pages ---- */
+@media (max-width: 600px) {
+  .custom-page .wrap {
+    padding: 36px 16px;
+  }
+  .custom-page .badge,
+  .custom-page .topic-list li {
+    font-size: 13px;
+    padding: 7px 14px;
+  }
+  .custom-page .experience-list li {
+    font-size: 15px;
+    padding: 12px 0;
+  }
 }
