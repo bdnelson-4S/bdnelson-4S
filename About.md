@@ -49,11 +49,11 @@ header:
 
        <h2>Credentials and Education</h2>
        <ul class="experience-list">
-        <li>A-LPC-MHSP License #7913 (Supervised by Kim Freeman, License #2475)</li>
-        <li>MA in Clinical Mental Health Counseling, Trevecca Nazarene University (2024)</li>
-        <li>AA in Intelligence Studies and Technology, The Community College of the Air Force (2016)</li>
-        <li>BA in International Relations, American Military University (2013)</li>
-        </ul>
+         <li>A-LPC-MHSP License #7913 (Supervised by Kim Freeman, License #2475)</li>
+         <li>MA in Clinical Mental Health Counseling, Trevecca Nazarene University (2024)</li>
+         <li>AA in Intelligence Studies and Technology, The Community College of the Air Force (2016)</li>
+         <li>BA in International Relations, American Military University (2013)</li>
+       </ul>
 
       <hr class="divider">
 
