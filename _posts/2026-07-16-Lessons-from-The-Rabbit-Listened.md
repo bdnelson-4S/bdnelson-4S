@@ -6,8 +6,8 @@
 layout: single                             # Uses the theme's 'single' page layout template
 title: ""  # Sets the page title and primary header metadata
 excerpt: "" # Page summary for card teasers & search previews
-header:
-  teaser:     # Defines thumbnail image used in grid post previews
+overlay_image: null
+  teaser: /Assets/therabbitlistened.jpg     # Defines thumbnail image used in grid post previews
 ---
 
 <!-- ==========================================================================
