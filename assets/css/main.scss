@@ -242,6 +242,7 @@ body {
 .custom-page .content {
   position: relative;
   z-index: 1;
+  text-align: center;
 }
 
 /* ---- Typography ---- */
@@ -282,8 +283,9 @@ body {
   font-size: clamp(15px, 2vw, 17px);
   line-height: 1.65;
   color: var(--ink-soft);
-  margin: 0 0 12px;
-  max-width: 900px;
+  margin: 0 auto 16px auto;
+  width: 100%;
+  max-width: 750px;
 }
 
 .custom-page .caution {
@@ -300,6 +302,7 @@ body {
   border: none;
   border-top: 1px solid var(--line);
   margin: 36px 0;
+  max-width: 800px;
 }
 
 /* ---- Rounded pill badges (Contact's location badges, Speaking's
