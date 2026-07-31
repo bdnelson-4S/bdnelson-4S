@@ -178,7 +178,7 @@ header:
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
-<div id="about-page">
+<div class="custom-page">
   <div class="wrap">
     <div class="content">
       <!-- <p><p class="eyebrow">About</p></p> -->
