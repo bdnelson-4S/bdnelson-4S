@@ -53,7 +53,7 @@ body .masthead {
    ========================================================================== */
 
 body {
-  padding-top: 77px; /* Must match .masthead's real rendered height, or
+  padding-top: 85px; /* Must match .masthead's real rendered height, or
                          content will start underneath the fixed nav.
                          Re-check this number any time the nav's height
                          changes (font size, padding, added menu items). */
@@ -382,6 +382,9 @@ body {
   letter-spacing: 0.01em;
   transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
   margin-top: 24px;
+   /* --- ADD THESE TWO LINES TO LIMIT BUTTON WIDTH --- */
+  width: 100%;           /* Allows it to be flexible on mobile */
+  max-width: 500px;      /* Caps the maximum width so it won't stretch full-screen */
 }
 
 .custom-page .btn .arrow {
