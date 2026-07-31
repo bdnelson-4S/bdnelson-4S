@@ -68,6 +68,9 @@ body {
 /* Paragraph text within main body content */
 .page__content p {
   text-align: justify; /* Justifies text alignment (even left and right edges) */
+   text-align: justify !important;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 
@@ -189,6 +192,7 @@ body {
 
 /* Removes background color from main navigation wrapper */
 .masthead,
+.masthead__inner-wrap,
 .greedy-nav {
   background-color: #EFEDE4 !important; /* Forces background to match site cream color */
 }
