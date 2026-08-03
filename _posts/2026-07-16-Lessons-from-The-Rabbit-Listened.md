@@ -4,8 +4,9 @@
 # ==========================================================================
 
 layout: single                             # Uses the theme's 'single' page layout template
-title: ""  # Sets the page title and primary header metadata
-excerpt: "" # Page summary for card teasers & search previews
+title: " "  # Sets the page title and primary header metadata
+excerpt: " " # Page summary for card teasers & search previews
+header:
   overlay_image: /Assets/therabbitlistened.jpg
   teaser: /Assets/therabbitlistened.jpg     # Defines thumbnail image used in grid post previews
 ---
