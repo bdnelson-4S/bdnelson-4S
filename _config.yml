@@ -1,6 +1,9 @@
 search: true
 search_full_content: true
 search_provider: lunr
+breadcrumbs: true
+words_per_minute: 200
+related_posts: true
 
 title: "Ben Nelson"
 
