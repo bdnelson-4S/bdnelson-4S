@@ -9,7 +9,7 @@ permalink: /articles/   # Sets the explicit URL path (yoursite.com/articles/)
 author_profile: false   # Disables the side author bio panel
 sidebar: false          # Disables the standard sidebar layout
 header:
-  overlay_image: /Assets/4SWallpaper.jpg # Banner image background behind header
+  overlay_image: /Assets/4SWallpaper.jpg
   overlay_filter: 0.4                  # Darkens header image by 40% for text legibility
 ---
 
@@ -48,8 +48,8 @@ header:
       <!-- --- SECTION 2D: Featured Article (Static - unaffected by search) --- -->
       <section class="featured-article">
         <h2>Featured</h2>
-        <a href="/articles/the-quiet-work-of-showing-up.html" class="featured-card">
-          <img src="/assets/images/featured-placeholder.jpg" alt="Featured article image">
+        <a href="/Articles/2026-07-16-Lessons-from-The-Rabbit-Listened.md" class="featured-card">
+          <img src="/Assets/therabbitlistened.jpg" alt="Featured article image">
           <div class="card-content">
             <span class="article-category parenting">Parenting</span>
             <h3>The Quiet Work of Showing Up</h3>
@@ -66,8 +66,8 @@ header:
 
           <!-- Individual Article Card 1 -->
           <!-- 'data-category' and 'data-title' allow fast client-side filtering via JS -->
-          <a href="/articles/why-we-need-both-structure-and-play.html" class="article-card" data-category="parenting" data-title="Why We Need Both Structure and Play">
-            <img src="/assets/images/article-placeholder-1.jpg" alt="Why We Need Both Structure and Play">
+          <a href="/Articles/2026-07-16-Lessons-from-The-Rabbit-Listened.md" class="article-card" data-category="parenting" data-title="Why We Need Both Structure and Play">
+            <img src="/Assets/therabbitlistened.jpg" alt="Why We Need Both Structure and Play">
             <div class="card-content">
               <span class="article-category parenting">Parenting</span>
               <h3>Why We Need Both Structure and Play</h3>
@@ -77,8 +77,8 @@ header:
           </a>
 
           <!-- Individual Article Card 2 -->
-          <a href="/articles/finding-meaning-in-ordinary-days.html" class="article-card" data-category="meaning" data-title="Finding Meaning in Ordinary Days">
-            <img src="/assets/images/article-placeholder-2.jpg" alt="Finding Meaning in Ordinary Days">
+          <a href="Articles/2026-07-16-Lessons-from-The-Rabbit-Listened.md" class="article-card" data-category="meaning" data-title="Finding Meaning in Ordinary Days">
+            <img src="Assets/therabbitlistened.jpg" alt="Finding Meaning in Ordinary Days">
             <div class="card-content">
               <span class="article-category meaning">Meaning</span>
               <h3>Finding Meaning in Ordinary Days</h3>
@@ -88,8 +88,8 @@ header:
           </a>
 
           <!-- Individual Article Card 3 -->
-          <a href="/articles/the-creative-habit-nobody-tells-you-about.html" class="article-card" data-category="creativity" data-title="The Creative Habit Nobody Tells You About">
-            <img src="/assets/images/article-placeholder-3.jpg" alt="The Creative Habit Nobody Tells You About">
+          <a href="Articles/2026-07-16-Lessons-from-The-Rabbit-Listened.md" class="article-card" data-category="creativity" data-title="The Creative Habit Nobody Tells You About">
+            <img src="Assets/therabbitlistened.jpg" alt="The Creative Habit Nobody Tells You About">
             <div class="card-content">
               <span class="article-category creativity">Creativity</span>
               <h3>The Creative Habit Nobody Tells You About</h3>
@@ -99,8 +99,8 @@ header:
           </a>
 
           <!-- Individual Article Card 4 -->
-          <a href="/articles/what-my-kids-taught-me-about-patience.html" class="article-card" data-category="parenting" data-title="What My Kids Taught Me About Patience">
-            <img src="/assets/images/article-placeholder-4.jpg" alt="What My Kids Taught Me About Patience">
+          <a href="Articles/2026-07-16-Lessons-from-The-Rabbit-Listened.md" class="article-card" data-category="parenting" data-title="What My Kids Taught Me About Patience">
+            <img src="Assets/therabbitlistened.jpg" alt="What My Kids Taught Me About Patience">
             <div class="card-content">
               <span class="article-category parenting">Parenting</span>
               <h3>What My Kids Taught Me About Patience</h3>
@@ -110,8 +110,8 @@ header:
           </a>
 
           <!-- Individual Article Card 5 -->
-          <a href="/articles/sitting-with-uncertainty.html" class="article-card" data-category="meaning" data-title="Sitting With Uncertainty">
-            <img src="/assets/images/article-placeholder-5.jpg" alt="Sitting With Uncertainty">
+          <a href="Articles/2026-07-16-Lessons-from-The-Rabbit-Listened.md" class="article-card" data-category="meaning" data-title="Sitting With Uncertainty">
+            <img src="Assets/therabbitlistened.jpg" alt="Sitting With Uncertainty">
             <div class="card-content">
               <span class="article-category meaning">Meaning</span>
               <h3>Sitting With Uncertainty</h3>
@@ -121,8 +121,8 @@ header:
           </a>
 
           <!-- Individual Article Card 6 -->
-          <a href="/articles/making-space-for-imperfect-work.html" class="article-card" data-category="creativity" data-title="Making Space for Imperfect Work">
-            <img src="/assets/images/article-placeholder-6.jpg" alt="Making Space for Imperfect Work">
+          <a href="Articles/2026-07-16-Lessons-from-The-Rabbit-Listened.md" class="article-card" data-category="creativity" data-title="Making Space for Imperfect Work">
+            <img src="Assets/therabbitlistened.jpg" alt="Making Space for Imperfect Work">
             <div class="card-content">
               <span class="article-category creativity">Creativity</span>
               <h3>Making Space for Imperfect Work</h3>
