@@ -1,8 +1,4 @@
 ---
-# ==========================================================================
-# 1. JEKYLL FRONT MATTER (PAGE METADATA & CONFIGURATION)
-# ==========================================================================
-
 layout: single                             # Uses the theme's 'single' page layout template
 title: " "  # Sets the page title and primary header metadata
 excerpt: " " # Page summary for card teasers & search previews
