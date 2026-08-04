@@ -44,7 +44,7 @@ header:
       <!-- --- SECTION 2D: Featured Article (Static - unaffected by search) --- -->
       <section class="featured-article">
         <h2>Featured</h2>
-        <a href="/Articles/2026-07-16-Lessons-from-The-Rabbit-Listened.md" class="featured-card">
+        <a href="/posts/2026-07-16-Lessons-from-The-Rabbit-Listened.md" class="featured-card">
           <img src="/Assets/therabbitlistened.jpg" alt="Featured article image">
           <div class="card-content">
             <span class="article-category parenting">Parenting</span>
@@ -62,7 +62,7 @@ header:
 
           <!-- Individual Article Card 1 -->
           <!-- 'data-category' and 'data-title' allow fast client-side filtering via JS -->
-          <a href="/Articles/2026-07-16-Lessons-from-The-Rabbit-Listened.md" class="article-card" data-category="parenting" data-title="Why We Need Both Structure and Play">
+          <a href="/posts/2026-07-16-Lessons-from-The-Rabbit-Listened.md" class="article-card" data-category="parenting" data-title="Why We Need Both Structure and Play">
             <img src="/Assets/therabbitlistened.jpg" alt="Why We Need Both Structure and Play">
             <div class="card-content">
               <span class="article-category parenting">Parenting</span>
@@ -72,60 +72,7 @@ header:
             </div>
           </a>
 
-          <!-- Individual Article Card 2 -->
-          <a href="Articles/2026-07-16-Lessons-from-The-Rabbit-Listened.md" class="article-card" data-category="meaning" data-title="Finding Meaning in Ordinary Days">
-            <img src="Assets/therabbitlistened.jpg" alt="Finding Meaning in Ordinary Days">
-            <div class="card-content">
-              <span class="article-category meaning">Meaning</span>
-              <h3>Finding Meaning in Ordinary Days</h3>
-              <span class="article-meta">7 min read</span>
-              <p class="article-description">Meaning rarely arrives as a lightning bolt. Usually it's stitched together from small, repeated choices.</p>
-            </div>
-          </a>
-
-          <!-- Individual Article Card 3 -->
-          <a href="Articles/2026-07-16-Lessons-from-The-Rabbit-Listened.md" class="article-card" data-category="creativity" data-title="The Creative Habit Nobody Tells You About">
-            <img src="Assets/therabbitlistened.jpg" alt="The Creative Habit Nobody Tells You About">
-            <div class="card-content">
-              <span class="article-category creativity">Creativity</span>
-              <h3>The Creative Habit Nobody Tells You About</h3>
-              <span class="article-meta">4 min read</span>
-              <p class="article-description">The habit that matters most isn't inspiration — it's showing up to the blank page on the boring days.</p>
-            </div>
-          </a>
-
-          <!-- Individual Article Card 4 -->
-          <a href="Articles/2026-07-16-Lessons-from-The-Rabbit-Listened.md" class="article-card" data-category="parenting" data-title="What My Kids Taught Me About Patience">
-            <img src="Assets/therabbitlistened.jpg" alt="What My Kids Taught Me About Patience">
-            <div class="card-content">
-              <span class="article-category parenting">Parenting</span>
-              <h3>What My Kids Taught Me About Patience</h3>
-              <span class="article-meta">6 min read</span>
-              <p class="article-description">I thought I was teaching them. Turns out the lessons went both directions.</p>
-            </div>
-          </a>
-
-          <!-- Individual Article Card 5 -->
-          <a href="Articles/2026-07-16-Lessons-from-The-Rabbit-Listened.md" class="article-card" data-category="meaning" data-title="Sitting With Uncertainty">
-            <img src="Assets/therabbitlistened.jpg" alt="Sitting With Uncertainty">
-            <div class="card-content">
-              <span class="article-category meaning">Meaning</span>
-              <h3>Sitting With Uncertainty</h3>
-              <span class="article-meta">8 min read</span>
-              <p class="article-description">Not every question needs an answer right away. Some just need company while you carry them.</p>
-            </div>
-          </a>
-
-          <!-- Individual Article Card 6 -->
-          <a href="Articles/2026-07-16-Lessons-from-The-Rabbit-Listened.md" class="article-card" data-category="creativity" data-title="Making Space for Imperfect Work">
-            <img src="Assets/therabbitlistened.jpg" alt="Making Space for Imperfect Work">
-            <div class="card-content">
-              <span class="article-category creativity">Creativity</span>
-              <h3>Making Space for Imperfect Work</h3>
-              <span class="article-meta">5 min read</span>
-              <p class="article-description">Perfectionism doesn't protect your best work — it usually just keeps it from ever getting made.</p>
-            </div>
-          </a>
+         
 
         </div>
 
