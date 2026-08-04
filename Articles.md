@@ -1,9 +1,4 @@
 ---
-<!-- ======================================================================= -->
-<!-- SECTION 1: YAML FRONT MATTER                                            -->
-<!-- Metadata configuration used by static site generators (like Jekyll/Hugo) -->
-<!-- ======================================================================= -->
-
 layout: single          # Defines the layout template (single page view)
 title: Articles         # Sets the page title in browser tabs/headers
 permalink: /articles/   # Sets the explicit URL path (yoursite.com/articles/)
