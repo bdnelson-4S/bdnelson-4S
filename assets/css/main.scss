@@ -182,6 +182,220 @@ body {
 
 
 /* ==========================================================================
+   ARTICLE PAGE ADDITIONS
+   Extends the existing .article-grid / .article-card rules at the bottom
+   of Section 5 and reuses the .custom-page color tokens (they inherit
+   down the DOM to any element nested inside .custom-page, regardless of
+   which selector defines them — so var(--sage) etc. work here even
+   though these rules aren't written under .custom-page).
+   ========================================================================== */
+
+/* ---- Grid: override to a fixed 3-column layout so desktop always shows
+   2 rows of 3, collapsing to 1 column on mobile ---- */
+.article-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 900px) {
+  .article-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---- Whole card is clickable ---- */
+.article-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card-content h3 {
+  font-family: "Fraunces", serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin: 0.2rem 0;
+  color: var(--ink, #2b332e);
+}
+
+/* ---- Category tag colors, tied to your existing palette ---- */
+.article-category {
+  width: fit-content;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.article-category.parenting {
+  background: rgba(185, 133, 90, 0.15);
+  color: var(--clay-deep, #9c6e45);
+}
+
+.article-category.meaning {
+  background: rgba(110, 127, 99, 0.15);
+  color: var(--sage-deep, #3f4f3f);
+}
+
+.article-category.creativity {
+  background: rgba(43, 51, 46, 0.08);
+  color: var(--ink, #2b332e);
+}
+
+.article-description {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--ink-soft, #545e56);
+  margin-top: 0.3rem;
+}
+
+/* ---- Search bar ---- */
+.article-search-bar {
+  margin: 24px auto;
+  max-width: 420px;
+}
+
+.article-search-bar input {
+  width: 100%;
+  padding: 12px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--line, #d7d3c4);
+  background: var(--paper, #fbfaf7);
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.article-search-bar input:focus {
+  outline: none;
+  border-color: var(--sage-deep, #3f4f3f);
+}
+
+/* ---- Category filter buttons (pill toggles, echoes .badge styling) ---- */
+.category-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0 10px;
+}
+
+.category-filter-btn {
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 9px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--line, #d7d3c4);
+  background: var(--paper, #fbfaf7);
+  color: var(--ink, #2b332e);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.category-filter-btn:hover {
+  border-color: var(--sage-deep, #3f4f3f);
+}
+
+.category-filter-btn.active {
+  background: var(--sage-deep, #3f4f3f);
+  color: var(--paper, #fbfaf7);
+  border-color: var(--sage-deep, #3f4f3f);
+}
+
+/* ---- Featured article ---- */
+.featured-article {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.featured-article h2 {
+  text-align: left;
+  max-width: 1000px;
+  margin: 0 auto 16px;
+}
+
+.featured-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-decoration: none;
+  color: inherit;
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.featured-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.featured-card img {
+  width: 100%;
+  height: 100%;
+  min-height: 280px;
+  object-fit: cover;
+}
+
+.featured-card .card-content {
+  padding: 2rem 2rem 2rem 0;
+  justify-content: center;
+}
+
+.featured-card h3 {
+  font-family: "Fraunces", serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin: 0.4rem 0;
+  color: var(--ink, #2b332e);
+}
+
+@media (max-width: 800px) {
+  .featured-card {
+    grid-template-columns: 1fr;
+  }
+  .featured-card .card-content {
+    padding: 0 1.5rem 1.5rem;
+  }
+}
+
+/* ---- Latest articles heading alignment ---- */
+.latest-articles h2 {
+  text-align: left;
+  max-width: 1000px;
+  margin: 0 auto 20px;
+}
+
+.latest-articles .article-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.no-results {
+  text-align: center;
+  color: var(--ink-soft, #545e56);
+  padding: 2rem 0;
+}
+
+
+/* ==========================================================================
    6. CUSTOM PAGE DESIGN SYSTEM
    Shared by any fully custom-designed page — currently Contact and
    Speaking. Uses a reusable class (.custom-page) instead of a per-page
