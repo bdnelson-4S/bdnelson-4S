@@ -18,7 +18,7 @@ header:
       <p class="lede">Reflections on parenting, meaning, and creativity — thoughts I hope are useful to you as much as they've been to me.</p>
 
       <div class="article-search-bar">
-        <input type="text" id="article-search" placeholder="Search articles..." aria-label="Search articles">
+        <input type="text" id="article-search" placeholder="Search Articles..." aria-label="Search Articles">
       </div>
 
       <div class="category-filters" id="category-filters">
@@ -44,7 +44,7 @@ header:
         </a>
       </section>
 
-      <section class="latest-articles">
+      <section class="latest-Articles">
         <h2>Latest Articles</h2>
         <div class="article-grid" id="article-grid">
 
@@ -60,7 +60,7 @@ header:
 
         </div>
 
-        <p id="no-results" class="no-results" style="display:none;">No articles match your search.</p>
+        <p id="no-results" class="no-results" style="display:none;">No Articles match your search.</p>
       </section>
 
     </div>
