@@ -1,10 +1,10 @@
 search: true
-search_full_content: true
-search_provider: lunr
+search_full_content: false
+search_provider: lunr # This line is comment
 breadcrumbs: true
 words_per_minute: 200
 related_posts: true
-search_full_content: false
+
 
 title: "Ben Nelson"
 
