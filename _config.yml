@@ -1,6 +1,6 @@
 search: true
 search_full_content: false
-search_provider: lunr # This line is comment
+# search_provider: lunr 
 breadcrumbs: true
 words_per_minute: 200
 related_posts: true
