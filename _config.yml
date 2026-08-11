@@ -4,6 +4,7 @@ search_provider: lunr
 breadcrumbs: true
 words_per_minute: 200
 related_posts: true
+search_full_content: true
 
 title: "Ben Nelson"
 
