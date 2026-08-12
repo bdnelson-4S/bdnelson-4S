@@ -13,7 +13,7 @@ header:
   <div class="wrap">
     <div class="content">
 
-      <p class="eyebrow">Writing</p>
+      
       <h1>Articles</h1>
       <p class="lede">Reflections on parenting, meaning, and creativity — thoughts I hope are useful to you as much as they've been to me.</p>
 
