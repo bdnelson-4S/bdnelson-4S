@@ -48,7 +48,7 @@ header:
         <h2>Latest Articles</h2>
         <div class="article-grid" id="article-grid">
 
-          <a href="/lessons-from-the-rabbit-listened/" class="article-card" data-category="parenting" data-title="Lessons from The Rabbit Listened">
+          <a href="_posts/2026-07-16-Lessons-from-The-Rabbit-Listened.md" class="article-card" data-category="parenting" data-title="Lessons from The Rabbit Listened">
             <img src="/Assets/therabbitlistened.jpg" alt="Lessons from The Rabbit Listened">
             <div class="card-content">
               <span class="article-category parenting">Parenting</span>
