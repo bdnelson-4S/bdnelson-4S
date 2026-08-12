@@ -12,7 +12,7 @@ description: Therapist and counselor in Smyrna, TN
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-remote-theme
-  - jekyll-include-cache
+ # - jekyll-include-cache
 defaults:
   - scope:
       path: ""
