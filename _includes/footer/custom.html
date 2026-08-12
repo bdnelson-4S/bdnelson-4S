@@ -1,7 +1,239 @@
 
+
 <div style="text-align: center; padding: 10px 0;">
   <!-- Professional verification provided by Psychology Today -->
   <a href="https://www.psychologytoday.com/profile/1408270" class="sx-verified-seal"></a>
   <script type="text/javascript" src="https://member.psychologytoday.com/verified-seal.js" data-badge="17" data-id="1408270" data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy8xNy9wcm9maWxlLzE0MDgyNzA/Y2FsbGJhY2s9c3hjYWxsYmFjaw=="></script>
+  <!-- End Verification -->
 </div>
-  <!-- End V
+
+<!--
+  _includes/footer/custom.html
+  Minimal Mistakes looks for this file automatically if your _config.yml has:
+    footer:
+      custom: true
+  (or if your footer.html include calls {% include footer/custom.html %} directly)
+
+  This footer defines its own CSS variables so it doesn't depend on being
+  wrapped in .custom-page — it will render correctly at the bottom of any
+  page, including plain markdown pages that don't use the custom-page system.
+  The color values match the tokens in Section 6 of main.scss.
+
+  Update the placeholder links/emails below (search for "UPDATE ME").
+-->
+
+<footer class="site-footer-custom">
+  <div class="sfc-wrap">
+
+    <div class="sfc-top">
+      <div class="sfc-identity">
+        <p class="sfc-name">Ben Nelson, A-LPC-MHSP License #7913</p>
+        <p class="sfc-sub">Supervised by Kim Freeman, License #2475</p>
+        <p class="sfc-role">Counselor&nbsp;|&nbsp;Speaker&nbsp;|&nbsp;Writer</p>
+        <p class="sfc-area">Serving clients throughout Tennessee</p>
+      </div>
+
+      <nav class="sfc-nav" aria-label="Footer navigation">
+        <a href="{{ '/about/' | relative_url }}">About</a>
+        <a href="{{ '/speaking/' | relative_url }}">Speaking</a>
+        <a href="{{ '/articles/' | relative_url }}">Writing</a>
+        <a href="{{ '/contact/' | relative_url }}">Contact</a>
+      </nav>
+
+      <div class="sfc-social">
+        <!-- UPDATE ME: replace with your real email -->
+        <a href="mailto:ben@example.com">Email</a>
+        <!-- UPDATE ME: replace with your Psychology Today profile URL -->
+        <a href="https://www.psychologytoday.com/us/therapists/YOUR-PROFILE" target="_blank" rel="noopener noreferrer">Psychology Today</a>
+        <!-- UPDATE ME: replace with your LinkedIn URL -->
+        <a href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+
+    <hr class="sfc-divider">
+
+    <div class="sfc-legal">
+      <p class="sfc-copyright">
+        &copy; 2026 Ben Nelson. All rights reserved.
+        <span class="sfc-legal-links">
+          <a href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a>
+          <span aria-hidden="true">&middot;</span>
+          <a href="{{ '/accessibility/' | relative_url }}">Accessibility</a>
+          <span aria-hidden="true">&middot;</span>
+          <a href="{{ '/terms-of-use/' | relative_url }}">Terms of Use</a>
+        </span>
+      </p>
+    </div>
+
+    <div class="sfc-disclaimer">
+      <p>
+        The information on this website is educational in nature and does not
+        constitute mental health treatment or establish a therapeutic relationship.
+      </p>
+      <p>
+        This website is not monitored for emergencies. If you are in crisis,
+        call 911 or go to your nearest emergency department.
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+<style>
+  .site-footer-custom {
+    --stone: #EFEDE4;
+    --stone-deep: #E3E0D3;
+    --ink: #2B332E;
+    --ink-soft: #545E56;
+    --sage: #6E7F63;
+    --sage-deep: #3F4F3F;
+    --clay: #B9855A;
+    --clay-deep: #9C6E45;
+    --line: #D7D3C4;
+    --paper: #FBFAF7;
+
+    font-family: 'Work Sans', sans-serif;
+    color: var(--ink-soft);
+    background: var(--stone-deep);
+    border-top: 1px solid var(--line);
+    margin-top: 60px;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    box-sizing: border-box;
+  }
+
+  .site-footer-custom * {
+    box-sizing: inherit;
+  }
+
+  .sfc-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 48px 24px 32px;
+  }
+
+  .sfc-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px;
+  }
+
+  .sfc-identity {
+    max-width: 320px;
+  }
+
+  .sfc-name {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--ink);
+    margin: 0 0 4px;
+  }
+
+  .sfc-sub {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin: 0 0 10px;
+  }
+
+  .sfc-role {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    color: var(--sage-deep);
+    margin: 0 0 4px;
+  }
+
+  .sfc-area {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin: 0;
+  }
+
+  .sfc-nav,
+  .sfc-social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .sfc-nav a,
+  .sfc-social a {
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    width: fit-content;
+  }
+
+  .sfc-nav a:hover,
+  .sfc-social a:hover {
+    color: var(--clay-deep);
+    border-bottom-color: var(--clay);
+  }
+
+  .sfc-divider {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 36px 0 20px;
+  }
+
+  .sfc-legal {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .sfc-copyright {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin: 0;
+  }
+
+  .sfc-legal-links {
+    display: inline-block;
+    margin-left: 8px;
+  }
+
+  .sfc-legal-links a {
+    color: var(--ink-soft);
+    text-decoration: none;
+    margin: 0 4px;
+  }
+
+  .sfc-legal-links a:hover {
+    color: var(--clay-deep);
+    text-decoration: underline;
+  }
+
+  .sfc-disclaimer {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    border-left: none;
+  }
+
+  .sfc-disclaimer p {
+    font-size: 12px;
+    line-height: 1.6;
+    font-style: italic;
+    color: var(--ink-soft);
+    margin: 0 0 6px;
+  }
+
+  @media (max-width: 640px) {
+    .sfc-top {
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .sfc-legal-links {
+      display: block;
+      margin: 6px 0 0;
+    }
+  }
+</style>
+
+
+
+
