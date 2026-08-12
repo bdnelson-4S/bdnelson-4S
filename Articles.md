@@ -30,33 +30,37 @@ header:
 
       <hr class="divider">
 
+      {% assign featured = site.posts | first %}
+      {% if featured %}
       <section class="featured-article">
         <h2>Featured</h2>
-        <!-- Corrected link from .md to Jekyll's built HTML route -->
-        <a href="2026-07-16-Lessons-from-The-Rabbit-Listened.md" class="featured-card">
-          <img src="/Assets/therabbitlistened.jpg" alt="Featured article image">
+        <a href="{{ featured.url }}" class="featured-card">
+          <img src="{{ featured.teaser | default: featured.header.overlay_image }}" alt="{{ featured.title }}">
           <div class="card-content">
-            <span class="article-category parenting">Parenting</span>
-            <h3>Lessons from The Rabbit Listened</h3>
-            <span class="article-meta">6 min read</span>
-            <p class="article-description">Some of the most important parenting happens in the moments nobody's watching. A look at what consistency actually asks of us.</p>
+            <span class="article-category {{ featured.categories | first | downcase }}">{{ featured.categories | first }}</span>
+            <h3>{{ featured.title }}</h3>
+            <span class="article-meta">{{ featured.content | number_of_words | divided_by: 200 | at_least: 1 }} min read</span>
+            <p class="article-description">{{ featured.excerpt | strip_html | truncate: 140 }}</p>
           </div>
         </a>
       </section>
+      {% endif %}
 
       <section class="latest-Articles">
         <h2>Latest Articles</h2>
         <div class="article-grid" id="article-grid">
 
-          <a href="_posts/2026-07-16-Lessons-from-The-Rabbit-Listened.md" class="article-card" data-category="parenting" data-title="Lessons from The Rabbit Listened">
-            <img src="/Assets/therabbitlistened.jpg" alt="Lessons from The Rabbit Listened">
+          {% for post in site.posts %}
+          <a href="{{ post.url }}" class="article-card" data-category="{{ post.categories | first | downcase }}" data-title="{{ post.title }}">
+            <img src="{{ post.teaser | default: post.header.overlay_image }}" alt="{{ post.title }}">
             <div class="card-content">
-              <span class="article-category parenting">Parenting</span>
-              <h3>Lessons from The Rabbit Listened</h3>
-              <span class="article-meta">5 min read</span>
-              <p class="article-description">Kids don't need one or the other — they need both, in the right proportions, at the right moments.</p>
+              <span class="article-category {{ post.categories | first | downcase }}">{{ post.categories | first }}</span>
+              <h3>{{ post.title }}</h3>
+              <span class="article-meta">{{ post.content | number_of_words | divided_by: 200 | at_least: 1 }} min read</span>
+              <p class="article-description">{{ post.excerpt | strip_html | truncate: 140 }}</p>
             </div>
           </a>
+          {% endfor %}
 
         </div>
 
@@ -67,13 +71,96 @@ header:
   </div>
 </div>
 
+<style>
+  /* Grid: 2 columns, cards match featured-card proportions */
+  .article-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+  }
+
+  .article-card,
+  .featured-card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--paper, #FBFAF7);
+    border: 1px solid var(--line, #D7D3C4);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .article-card:hover,
+  .featured-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  }
+
+  .article-card img,
+  .featured-card img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
+  }
+
+  .article-card .card-content,
+  .featured-card .card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .article-card h3,
+  .featured-card h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.3;
+  }
+
+  .article-card .article-description,
+  .featured-card .article-description {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--ink-soft, #545E56);
+    line-height: 1.5;
+  }
+
+  .article-category {
+    display: inline-block;
+    width: fit-content;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 3px 10px;
+    border-radius: 999px;
+    background: var(--stone-deep, #E3E0D3);
+    color: var(--ink, #2B332E);
+  }
+
+  .article-meta {
+    font-size: 0.8rem;
+    color: var(--ink-soft, #545E56);
+  }
+
+  @media (max-width: 700px) {
+    .article-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
 <script>
 (function () {
   const searchInput = document.getElementById('article-search');
   const categoryButtons = document.querySelectorAll('.category-filter-btn');
   const cards = document.querySelectorAll('.article-card');
   const noResults = document.getElementById('no-results');
-  
+
   let activeCategory = 'all';
 
   function applyFilters() {
@@ -88,7 +175,7 @@ header:
       const matchesSearch = query === '' || title.includes(query);
 
       const show = matchesCategory && matchesSearch;
-      
+
       card.style.display = show ? '' : 'none';
       if (show) visibleCount++;
     });
