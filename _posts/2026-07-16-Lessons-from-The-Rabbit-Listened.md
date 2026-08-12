@@ -1,7 +1,7 @@
 ---
 layout: single                             # Uses the theme's 'single' page layout template
-title: " "  # Sets the page title and primary header metadata
-excerpt: " " # Page summary for card teasers & search previews
+title: "Lessons from The Rabbit Listened"  # Sets the page title and primary header metadata
+excerpt: "What can a children's book teach about presence and listening to adults?" # Page summary for card teasers & search previews
 categories:
   - Relationships
 
