@@ -33,7 +33,7 @@ header:
       <section class="featured-article">
         <h2>Featured</h2>
         <!-- Corrected link from .md to Jekyll's built HTML route -->
-        <a href="/lessons-from-the-rabbit-listened/" class="featured-card">
+        <a href="_posts/2026-07-16-Lessons-from-The-Rabbit-Listened.md" class="featured-card">
           <img src="/Assets/therabbitlistened.jpg" alt="Featured article image">
           <div class="card-content">
             <span class="article-category parenting">Parenting</span>
