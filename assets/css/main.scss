@@ -52,6 +52,10 @@ body .masthead {
    3. GLOBAL BODY & PAGE LAYOUT
    ========================================================================== */
 
+html {
+  overflow-y: scroll;
+}
+
 body {
   padding-top: 85px; /* Must match .masthead's real rendered height, or
                          content will start underneath the fixed nav.
@@ -408,6 +412,10 @@ body {
    since both are already handled here.
    ========================================================================== */
 
+.custom-page .content {
+  text-align: center;
+}
+
 .custom-page {
   /* ---- Color palette tokens — change once here, updates every
      custom page site-wide ---- */
@@ -500,6 +508,9 @@ body {
   margin: 0 auto 16px auto;
   width: 100%;
   max-width: 750px;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 .custom-page .caution {
