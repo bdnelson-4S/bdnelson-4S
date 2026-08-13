@@ -100,7 +100,7 @@ body {
    to keep). Reserves scrollbar space so 100vw measures consistently
    whether or not a given page is tall enough to trigger a scrollbar,
    and falls back to the old breakout math on .custom-page itself. */
-@supports not selector(:has(a)) {
+@supports not #{selector(:has(a))} {
   html {
     overflow-y: scroll;
   }
