@@ -246,7 +246,7 @@ body {
 
 /* Fallback breakout math for browsers without :has() support, where
    .page__content still has its 700px cap in place. */
-@supports not selector(:has(a)) {
+@supports #{not selector(:has(a))} {
   .custom-page {
     margin: -1em -1em 0;
     max-width: none !important;
