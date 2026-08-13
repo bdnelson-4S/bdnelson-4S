@@ -96,15 +96,6 @@ body {
   padding: 0 !important;
 }
 
-/* Fallback for browsers without :has() support (rare in 2026, but safe
-   to keep). Reserves scrollbar space so 100vw measures consistently
-   whether or not a given page is tall enough to trigger a scrollbar,
-   and falls back to the old breakout math on .custom-page itself. */
-@supports not selector(:has(a)) {
-  html {
-    overflow-y: scroll;
-  }
-}
 
 
 /* ==========================================================================
@@ -246,14 +237,14 @@ body {
 
 /* Fallback breakout math for browsers without :has() support, where
    .page__content still has its 700px cap in place. */
-@supports not selector(:has(a)) {
+
   .custom-page {
     margin: -1em -1em 0;
     max-width: none !important;
     width: 100vw !important;
     margin-left: unquote("calc(-50vw + 50%)") !important;
   }
-}
+
 
 .custom-page *,
 .custom-page *::before,
