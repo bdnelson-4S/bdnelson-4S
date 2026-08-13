@@ -46,7 +46,7 @@ header:
       </section>
       {% endif %}
 
-      <section class="latest-Articles">
+      <section class="latest-articles">
         <h2>Latest Articles</h2>
         <div class="article-grid" id="article-grid">
 
@@ -70,89 +70,6 @@ header:
     </div>
   </div>
 </div>
-
-<style>
-  /* Grid: 2 columns, cards match featured-card proportions */
-  .article-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 28px;
-  }
-
-  .article-card,
-  .featured-card {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    color: inherit;
-    border-radius: 8px;
-    overflow: hidden;
-    background: var(--paper, #FBFAF7);
-    border: 1px solid var(--line, #D7D3C4);
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
-  }
-
-  .article-card:hover,
-  .featured-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-  }
-
-  .article-card img,
-  .featured-card img {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
-    display: block;
-  }
-
-  .article-card .card-content,
-  .featured-card .card-content {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
-
-  .article-card h3,
-  .featured-card h3 {
-    margin: 0;
-    font-size: 1.1rem;
-    line-height: 1.3;
-  }
-
-  .article-card .article-description,
-  .featured-card .article-description {
-    margin: 0;
-    font-size: 0.95rem;
-    color: var(--ink-soft, #545E56);
-    line-height: 1.5;
-  }
-
-  .article-category {
-    display: inline-block;
-    width: fit-content;
-    font-size: 0.75rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    padding: 3px 10px;
-    border-radius: 999px;
-    background: var(--stone-deep, #E3E0D3);
-    color: var(--ink, #2B332E);
-  }
-
-  .article-meta {
-    font-size: 0.8rem;
-    color: var(--ink-soft, #545E56);
-  }
-
-  @media (max-width: 700px) {
-    .article-grid {
-      grid-template-columns: 1fr;
-    }
-  }
-</style>
 
 <script>
 (function () {
