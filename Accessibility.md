@@ -33,9 +33,6 @@ header:
     <h2>Ongoing Improvement</h2>
       <p class="lede">Accessibility is an ongoing priority. I will continue to review and improve this website as the site develops and as accessibility practices and technologies evolve.</p>
 
-      <hr class="divider">
-
-
 </div>
 </div>
 </div>
