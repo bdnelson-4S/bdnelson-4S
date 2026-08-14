@@ -25,39 +25,13 @@ header:
 
       <hr class="divider">
 
-      <h2>Last updated: August 12, 2026</h2>
-      <p class="lede">Becoming a counselor was not always the plan. In high school, I wanted to be a musician and I played lead guitar in a progressive metal band. However, I made a fairly abrupt left turn and joined the Air Force where I served as an Intelligence Analyst for 12 years. During my time in service I experienced my own challenges with mental health. I found out very quickly that there were few people who could understand my story in a way that felt helpful. I also realized that there were too few male counselors available for people who were looking for someone who could relate to some of the challenges I had faced.</p>
-      <p class="lede">That realization changed the direction of my life. I decided I wanted to become the kind of counselor I had once been looking for—someone who listens and truly understands, not because they have the same experiences but because they understand what it feels like to share in the human experience.</p>
+      <h2>Feedback</h2>
+      <p class="lede">If you encounter an accessibility barrier or have difficulty accessing information on this website, please contact me through the website's Contact page. Please describe the page or feature you are having difficulty accessing and, when possible, the type of assistance you need.</p>
+      <p class="lede">I will make reasonable efforts to respond to accessibility concerns and provide the requested information in an accessible format when possible.</p>
 
       <hr class="divider">
-    <h2>How I Think</h2>
-      <p class="lede">I consistently look for connections. I like to see how things fit together rather than how they differ. I enjoy exploring the places where different disciplines overlap and build toward a deeper understanding. Science, psychology, philosophy, and faith each ask different questions, but they also illuminate one another. Rather than seeing them as opposing forces, I see them as complementary ways of understanding the world. 
-    </p>
-
-      <hr class="divider">
-      
-    <h2>What I Do</h2>
-      <p class="lede">Whether I'm meeting with a counseling client, speaking to an audience, or writing an article, my goal is the same: to help people think more clearly, understand themselves more deeply, and move toward lives of greater meaning and purpose.
-    </p>
-      <p class="lede">At heart, I'm someone who enjoys exploring big questions. I'm fascinated by how experiences shape us, what helps us grow, and what gives life meaning. Counseling, speaking, writing, and even art are all different ways I explore those questions and invite others into the conversation. 
-    </p>
-
-      <hr class="divider">
-   
-      <h2>Beyond Work</h2>
-      <p class="lede">Outside of work I have many interests that keep me busy. These interests have worked to inform my worldview and my philosophy of life in many ways. Some of these interests include reading, woodworking, art, weight lifting, and board games—they've shaped the way I understand creativity, discipline, relationships, and the value of lifelong learning.</p>
-      <p class="lede">I have been married for 18 years and have four kids. My wife and I are foster parents, providing care for children in need throughout Middle Tennessee. I have also volunteered at my church in various capacities over the years and am an active member of The Church of Jesus Christ of Latter-day Saints.
-    </p>
-
-      <hr class="divider">
-
-       <h2>Credentials and Education</h2>
-       <ul class="experience-list">
-         <li>A-LPC-MHSP License #7913 (Supervised by Kim Freeman, License #2475)</li>
-         <li>MA in Clinical Mental Health Counseling, Trevecca Nazarene University (2024)</li>
-         <li>AA in Intelligence Studies and Technology, The Community College of the Air Force (2016)</li>
-         <li>BA in International Relations, American Military University (2013)</li>
-       </ul>
+    <h2>Ongoing Improvement</h2>
+      <p class="lede">Accessibility is an ongoing priority. I will continue to review and improve this website as the site develops and as accessibility practices and technologies evolve.</p>
 
       <hr class="divider">
 
